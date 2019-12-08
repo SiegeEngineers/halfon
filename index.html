@@ -35,21 +35,31 @@
         .table.techs-table tfoot tr th:nth-child(3) {
             text-align: left;
         }
-        
+
         .wood {
             color: #830;
         }
-        
+
         .food {
             color: #d00;
         }
-        
+
         .gold {
             color: #da0;
         }
-        
+
         .stone {
             color: #444;
+        }
+
+        #loadHD,
+        #loadDE {
+            cursor: pointer;
+        }
+
+        #loadHD.active,
+        #loadDE.active {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -61,8 +71,13 @@
                 <img src="SiegeEngineers.png" alt="SE"/> HALFON
             </h1>
             <h2 class="subtitle">
-                Age of Empires II unit, building and tech reference <small class="has-text-grey">Version: Age of Empires
-                II HD Patch 5.8</small> <a href="#units-buildings">Units/Buildings</a> · <a href="#technologies">Technologies</a>
+                Age of Empires II unit, building and tech reference ·
+                <a href="#units-buildings">Units/Buildings</a> ·
+                <a href="#technologies">Technologies</a> ·
+                <small class="has-text-grey">Version:
+                    <span id='loadDE'>AoEII DE Update 33315</span> |
+                    <span id='loadHD'>AoEII HD Patch 5.8</span>
+                </small>
             </h2>
             <p><input class="input" type="text" id="filter" placeholder="Filter…"></p>
         </div>
@@ -76,7 +91,7 @@
             <tr>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Localised Name</th>
+                <th>Localised Name<abbr title="often inaccurate for non-conventional units">¹</abbr></th>
                 <th><abbr title="Hitpoints">HP</abbr></th>
                 <th><abbr title="Line of Sight">LOS</abbr></th>
                 <th><abbr title="Attack">ATK</abbr></th>
@@ -95,7 +110,7 @@
             <tr>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Localised Name</th>
+                <th>Localised Name<abbr title="often inaccurate for non-conventional units">¹</abbr></th>
                 <th><abbr title="Hitpoints">HP</abbr></th>
                 <th><abbr title="Line of Sight">LOS</abbr></th>
                 <th><abbr title="Attack">ATK</abbr></th>
@@ -257,17 +272,19 @@
 
     const getid = (unit) => `${unit.base_id}${unit.name}${unit.localised_name}${unit.hit_points}${unit.line_of_sight}${unit.attack}${unit.melee_armor}${unit.pierce_armor}${unit.garrison_capacity}${unit.cost.wood}${unit.cost.food}${unit.cost.gold}${unit.cost.stone}${toType(unit.type)}${toClass(unit.class)}`.replace(/ /g, '_').toLowerCase();
     const gettechid = (id, unit) => `${id}${unit.name}${unit.localised_name}${unit.cost.wood}${unit.cost.food}${unit.cost.gold}${unit.cost.stone}`.replace(/ /g, '_').toLowerCase();
-    fetch("units_buildings_techs.json")
-        .then(response => response.json())
-        .then(json => {
-            const units_buildings_content = document.getElementById('units_buildings');
-            for (let id in json.units_buildings) {
-                const unit = json.units_buildings[id];
-                const node = document.createElement('tr');
-                node.id = getid(unit);
-                node.innerHTML = `<td>${unit.base_id}</td>
+    const init = (filename) => {
+        fetch(filename)
+            .then(response => response.json())
+            .then(json => {
+                const units_buildings_content = document.getElementById('units_buildings');
+                units_buildings_content.innerHTML = '';
+                for (let id in json.units_buildings) {
+                    const unit = json.units_buildings[id];
+                    const node = document.createElement('tr');
+                    node.id = getid(unit);
+                    node.innerHTML = `<td>${unit.base_id}</td>
                     <td>${unit.name}</td>
-                    <td>${unit.localised_name}</td>
+                    <td style='font-style:italic;'>${unit.localised_name}</td>
                     <td>${unit.hit_points}</td>
                     <td>${unit.line_of_sight}</td>
                     <td>${unit.attack}</td>
@@ -280,23 +297,26 @@
                     <td class="stone">${unit.cost.stone}</td>
                     <td>${toType(unit.type)}</td>
                     <td>${toClass(unit.class)}</td>`;
-                units_buildings_content.appendChild(node);
-            }
-            const techs_content = document.getElementById('techs');
-            for (let id in json.techs) {
-                const unit = json.techs[id];
-                const node = document.createElement('tr');
-                node.id = gettechid(id, unit);
-                node.innerHTML = `<td>${id}</td>
+                    units_buildings_content.appendChild(node);
+                }
+                const techs_content = document.getElementById('techs');
+                techs_content.innerHTML = '';
+                for (let id in json.techs) {
+                    const unit = json.techs[id];
+                    const node = document.createElement('tr');
+                    node.id = gettechid(id, unit);
+                    node.innerHTML = `<td>${id}</td>
                     <td>${unit.name}</td>
-                    <td>${unit.localised_name}</td>
+                    <td style='font-style:italic;'>${unit.localised_name}</td>
                     <td>${unit.cost.wood}</td>
                     <td>${unit.cost.food}</td>
                     <td>${unit.cost.gold}</td>
                     <td>${unit.cost.stone}</td>`;
-                techs_content.appendChild(node);
-            }
-        });
+                    techs_content.appendChild(node);
+                }
+                applyFilter();
+            });
+    };
 
     document.getElementById('filter').addEventListener('keyup', function (e) {
         if (e.key === "Escape") {
@@ -304,7 +324,21 @@
         }
         applyFilter();
     });
-    applyFilter();
+
+    document.getElementById('loadDE').addEventListener('click', function (e) {
+        document.getElementById('loadDE').classList.add('active');
+        document.getElementById('loadHD').classList.remove('active');
+        init("units_buildings_techs.de.json");
+    });
+
+    document.getElementById('loadHD').addEventListener('click', function (e) {
+        document.getElementById('loadHD').classList.add('active');
+        document.getElementById('loadDE').classList.remove('active');
+        init("units_buildings_techs.hd.json");
+    });
+
+    init("units_buildings_techs.de.json");
+    document.getElementById('loadDE').classList.add('active');
 </script>
 </body>
 </html>
