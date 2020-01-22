@@ -18451,7 +18451,7 @@
 			"base_id": 889,
 			"help_converter": 26464,
 			"language_file_help": 105464,
-			"name": "Disable llama building",
+			"name": "Disabled TC spawn",
 			"hit_points": -1,
 			"line_of_sight": 0,
 			"garrison_capacity": 0,
@@ -18472,7 +18472,7 @@
 			"base_id": 890,
 			"help_converter": 26464,
 			"language_file_help": 105464,
-			"name": "Empty llama annex",
+			"name": "Empty TC annex",
 			"hit_points": -1,
 			"line_of_sight": 0,
 			"garrison_capacity": 0,
@@ -22635,7 +22635,7 @@
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 10,
-			"class": 3,
+			"class": 14,
 			"localised_name": "Granary"
 		},
 		"1090": {
@@ -23396,7 +23396,7 @@
 		},
 		"1126": {
 			"cost": {
-				"wood": 80,
+				"wood": 75,
 				"food": 0,
 				"gold": 60,
 				"stone": 0
@@ -23438,7 +23438,7 @@
 		},
 		"1128": {
 			"cost": {
-				"wood": 80,
+				"wood": 75,
 				"food": 0,
 				"gold": 60,
 				"stone": 0
@@ -25970,7 +25970,7 @@
 			"help_converter": 26371,
 			"language_file_help": 105371,
 			"name": "FAUTUM",
-			"hit_points": 30,
+			"hit_points": 20,
 			"line_of_sight": 0,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -26043,8 +26043,8 @@
 		"1252": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
-				"gold": 70,
+				"food": 0,
+				"gold": 0,
 				"stone": 0
 			},
 			"attack": 12,
@@ -26064,8 +26064,8 @@
 		"1253": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
-				"gold": 70,
+				"food": 0,
+				"gold": 0,
 				"stone": 0
 			},
 			"attack": 13,
@@ -34136,15 +34136,15 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1637,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26037,
+			"language_file_help": 105037,
+			"name": "HBAYIN_D",
+			"hit_points": 0,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 30,
+			"class": 11,
+			"localised_name": "Well"
 		},
 		"1638": {
 			"cost": {
@@ -34157,15 +34157,15 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1638,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26528,
+			"language_file_help": 105528,
+			"name": "KUSHLUK_D",
+			"hit_points": 0,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 30,
+			"class": 11,
+			"localised_name": "Temple of Heaven"
 		},
 		"1639": {
 			"cost": {
@@ -34178,15 +34178,15 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1639,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26464,
+			"language_file_help": 105464,
+			"name": "Monument resources enabler",
+			"hit_points": -1,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 80,
+			"class": 27,
+			"localised_name": "Lumber Camp"
 		},
 		"1640": {
 			"cost": {
@@ -34197,17 +34197,17 @@
 			},
 			"attack": 0,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 7,
 			"base_id": 1640,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26464,
+			"language_file_help": 105464,
+			"name": "Villager building (Male)",
+			"hit_points": -1,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 80,
+			"class": 27,
+			"localised_name": "Lumber Camp"
 		},
 		"1641": {
 			"cost": {
@@ -34218,17 +34218,17 @@
 			},
 			"attack": 0,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 7,
 			"base_id": 1641,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26464,
+			"language_file_help": 105464,
+			"name": "Villager building (Female)",
+			"hit_points": -1,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 80,
+			"class": 27,
+			"localised_name": "Lumber Camp"
 		},
 		"1642": {
 			"cost": {
@@ -34239,17 +34239,17 @@
 			},
 			"attack": 0,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 7,
 			"base_id": 1642,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26464,
+			"language_file_help": 105464,
+			"name": "Villager annex (Chinese)",
+			"hit_points": -1,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 80,
+			"class": 27,
+			"localised_name": "Lumber Camp"
 		},
 		"1643": {
 			"cost": {
@@ -34260,17 +34260,17 @@
 			},
 			"attack": 0,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 7,
 			"base_id": 1643,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26464,
+			"language_file_help": 105464,
+			"name": "Villager building2 (Male)",
+			"hit_points": -1,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 80,
+			"class": 27,
+			"localised_name": "Lumber Camp"
 		},
 		"1644": {
 			"cost": {
@@ -34281,17 +34281,17 @@
 			},
 			"attack": 0,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 7,
 			"base_id": 1644,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26464,
+			"language_file_help": 105464,
+			"name": "Villager annex (Mayan)",
+			"hit_points": -1,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 80,
+			"class": 27,
+			"localised_name": "Lumber Camp"
 		},
 		"1645": {
 			"cost": {
@@ -34302,17 +34302,17 @@
 			},
 			"attack": 0,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 7,
 			"base_id": 1645,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26464,
+			"language_file_help": 105464,
+			"name": "Villager building2 (Female)",
+			"hit_points": -1,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"type": 80,
+			"class": 27,
+			"localised_name": "Lumber Camp"
 		},
 		"1646": {
 			"cost": {
@@ -43160,7 +43160,7 @@
 			},
 			"help_converter": 28000,
 			"language_file_help": 107000,
-			"name": "Disable Llama bonus",
+			"name": "Disable TC spawn",
 			"localised_name": ""
 		},
 		"641": {
@@ -44228,7 +44228,7 @@
 			},
 			"help_converter": 28000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "Monument Resources",
 			"localised_name": ""
 		},
 		"730": {
