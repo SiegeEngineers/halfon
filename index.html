@@ -53,11 +53,13 @@
         }
 
         #loadHD,
+        #loadWK,
         #loadDE {
             cursor: pointer;
         }
 
         #loadHD.active,
+        #loadWK.active,
         #loadDE.active {
             font-weight: bold;
         }
@@ -76,7 +78,8 @@
                 <a href="#technologies">Technologies</a> ·
                 <small class="has-text-grey">Version:
                     <span id='loadDE'>AoEII DE Update 34699</span> |
-                    <span id='loadHD'>AoEII HD Patch 5.8</span>
+                    <span id='loadHD'>AoEII HD Patch 5.8</span> |
+                    <span id='loadWK'>AoEII WK Patch 5.8.1</span>
                 </small>
             </h2>
             <p><input class="input" type="text" id="filter" placeholder="Filter…"></p>
@@ -326,15 +329,24 @@
     });
 
     document.getElementById('loadDE').addEventListener('click', function (e) {
-        document.getElementById('loadDE').classList.add('active');
         document.getElementById('loadHD').classList.remove('active');
+        document.getElementById('loadWK').classList.remove('active');
+        document.getElementById('loadDE').classList.add('active');
         init("units_buildings_techs.de.json");
     });
 
     document.getElementById('loadHD').addEventListener('click', function (e) {
         document.getElementById('loadHD').classList.add('active');
+        document.getElementById('loadWK').classList.remove('active');
         document.getElementById('loadDE').classList.remove('active');
         init("units_buildings_techs.hd.json");
+    });
+
+    document.getElementById('loadWK').addEventListener('click', function (e) {
+        document.getElementById('loadHD').classList.remove('active');
+        document.getElementById('loadWK').classList.add('active');
+        document.getElementById('loadDE').classList.remove('active');
+        init("units_buildings_techs.wk.json");
     });
 
     init("units_buildings_techs.de.json");
