@@ -20967,7 +20967,7 @@
 			},
 			"attack": 3,
 			"melee_armor": 0,
-			"pierce_armor": 3,
+			"pierce_armor": 4,
 			"base_id": 1010,
 			"help_converter": 26137,
 			"language_file_help": 105137,
@@ -34181,11 +34181,11 @@
 			"help_converter": 26464,
 			"language_file_help": 105464,
 			"name": "Monument resources enabler",
-			"hit_points": -1,
+			"hit_points": 1,
 			"line_of_sight": 0,
 			"garrison_capacity": 0,
 			"type": 80,
-			"class": 27,
+			"class": 3,
 			"localised_name": "Lumber Camp"
 		},
 		"1640": {
@@ -39105,7 +39105,7 @@
 			"help_converter": 28312,
 			"language_file_help": 107312,
 			"name": "C-Bonus, Start w/ 6 villagers",
-			"localised_name": "Chieftains"
+			"localised_name": "Elite Kipchak (Mercenary)"
 		},
 		"303": {
 			"cost": {
@@ -39248,7 +39248,7 @@
 			},
 			"help_converter": 28290,
 			"language_file_help": 107290,
-			"name": "C-Bonus, Super Palisade",
+			"name": "C-Bonus, Cheap Farms",
 			"localised_name": "Elite Rattan Archer"
 		},
 		"315": {
@@ -39596,7 +39596,7 @@
 			},
 			"help_converter": 28338,
 			"language_file_help": 107338,
-			"name": "C-Bonus, Unit Cost 15%",
+			"name": "C-Bonus, Infantry +1 armor",
 			"localised_name": ""
 		},
 		"344": {
@@ -39606,9 +39606,9 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28339,
-			"language_file_help": 107339,
-			"name": "C-Bonus, Unit Cost 25%",
+			"help_converter": 28338,
+			"language_file_help": 107338,
+			"name": "C-Bonus, Infantry Cost -35%",
 			"localised_name": ""
 		},
 		"345": {
@@ -40136,7 +40136,7 @@
 			},
 			"help_converter": 28367,
 			"language_file_help": 107367,
-			"name": "None",
+			"name": "C-Bonus, Cavalry +30% HP",
 			"localised_name": ""
 		},
 		"389": {
@@ -40148,7 +40148,7 @@
 			},
 			"help_converter": 28368,
 			"language_file_help": 107368,
-			"name": "None",
+			"name": "C-Bonus, Hunters 40% faster",
 			"localised_name": "Great Wall"
 		},
 		"390": {
@@ -41037,7 +41037,7 @@
 			"help_converter": 28312,
 			"language_file_help": 107312,
 			"name": "Viking Chieftains",
-			"localised_name": "Chieftains"
+			"localised_name": "Elite Kipchak (Mercenary)"
 		},
 		"464": {
 			"cost": {
@@ -41330,8 +41330,8 @@
 		"488": {
 			"cost": {
 				"wood": 0,
-				"food": 200,
-				"gold": 200,
+				"food": 400,
+				"gold": 300,
 				"stone": 0
 			},
 			"help_converter": 28281,
@@ -42129,7 +42129,7 @@
 			"help_converter": 28312,
 			"language_file_help": 107312,
 			"name": "C-Bonus, Start w/ 4 villagers",
-			"localised_name": "Chieftains"
+			"localised_name": "Elite Kipchak (Mercenary)"
 		},
 		"555": {
 			"cost": {
@@ -43148,7 +43148,7 @@
 			},
 			"help_converter": 28000,
 			"language_file_help": 107000,
-			"name": "Llama bonus",
+			"name": "Town Center Spawn",
 			"localised_name": ""
 		},
 		"640": {
@@ -44240,7 +44240,7 @@
 			},
 			"help_converter": 28000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Start w/ Llama",
 			"localised_name": ""
 		},
 		"731": {
