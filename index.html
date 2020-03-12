@@ -36,19 +36,34 @@
             text-align: left;
         }
 
-        .wood {
+        .gc {
+            color: #888;
+        }
+
+        .gc.active {
+            color: black;
+        }
+
+        .wood,
+        .food,
+        .gold,
+        .stone {
+            color: #ccc;
+        }
+
+        .wood.active {
             color: #830;
         }
 
-        .food {
+        .food.active {
             color: #d00;
         }
 
-        .gold {
+        .gold.active {
             color: #da0;
         }
 
-        .stone {
+        .stone.active {
             color: #444;
         }
 
@@ -283,6 +298,11 @@
                 units_buildings_content.innerHTML = '';
                 for (let id in json.units_buildings) {
                     const unit = json.units_buildings[id];
+                    const gcClass = unit.garrison_capacity > 0 ? ' active' : '';
+                    const woodClass = unit.cost.wood > 0 ? ' active' : '';
+                    const foodClass = unit.cost.food > 0 ? ' active' : '';
+                    const goldClass = unit.cost.gold > 0 ? ' active' : '';
+                    const stoneClass = unit.cost.stone > 0 ? ' active' : '';
                     const node = document.createElement('tr');
                     node.id = getid(unit);
                     node.innerHTML = `<td>${unit.base_id}</td>
@@ -293,11 +313,11 @@
                     <td>${unit.attack}</td>
                     <td>${unit.melee_armor}</td>
                     <td>${unit.pierce_armor}</td>
-                    <td>${unit.garrison_capacity}</td>
-                    <td class="wood">${unit.cost.wood}</td>
-                    <td class="food">${unit.cost.food}</td>
-                    <td class="gold">${unit.cost.gold}</td>
-                    <td class="stone">${unit.cost.stone}</td>
+                    <td class="gc${gcClass}">${unit.garrison_capacity}</td>
+                    <td class="wood${woodClass}">${unit.cost.wood}</td>
+                    <td class="food${foodClass}">${unit.cost.food}</td>
+                    <td class="gold${goldClass}">${unit.cost.gold}</td>
+                    <td class="stone${stoneClass}">${unit.cost.stone}</td>
                     <td>${toType(unit.type)}</td>
                     <td>${toClass(unit.class)}</td>`;
                     units_buildings_content.appendChild(node);
@@ -306,15 +326,19 @@
                 techs_content.innerHTML = '';
                 for (let id in json.techs) {
                     const unit = json.techs[id];
+                    const woodClass = unit.cost.wood > 0 ? ' active' : '';
+                    const foodClass = unit.cost.food > 0 ? ' active' : '';
+                    const goldClass = unit.cost.gold > 0 ? ' active' : '';
+                    const stoneClass = unit.cost.stone > 0 ? ' active' : '';
                     const node = document.createElement('tr');
                     node.id = gettechid(id, unit);
                     node.innerHTML = `<td>${id}</td>
                     <td>${unit.name}</td>
                     <td style='font-style:italic;'>${unit.localised_name}</td>
-                    <td>${unit.cost.wood}</td>
-                    <td>${unit.cost.food}</td>
-                    <td>${unit.cost.gold}</td>
-                    <td>${unit.cost.stone}</td>`;
+                    <td class="wood${woodClass}">${unit.cost.wood}</td>
+                    <td class="food${foodClass}">${unit.cost.food}</td>
+                    <td class="gold${goldClass}">${unit.cost.gold}</td>
+                    <td class="stone${stoneClass}">${unit.cost.stone}</td>`;
                     techs_content.appendChild(node);
                 }
                 applyFilter();
