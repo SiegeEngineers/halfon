@@ -20787,7 +20787,7 @@
 			"line_of_sight": 9,
 			"garrison_capacity": 0,
 			"type": 70,
-			"class": 13,
+			"class": 55,
 			"localised_name": "Organ Gun"
 		},
 		"1002": {
@@ -20829,7 +20829,7 @@
 			"line_of_sight": 9,
 			"garrison_capacity": 0,
 			"type": 70,
-			"class": 13,
+			"class": 55,
 			"localised_name": "Elite Organ Gun"
 		},
 		"1004": {
@@ -26274,18 +26274,18 @@
 		"1263": {
 			"cost": {
 				"wood": 0,
-				"food": 65,
-				"gold": 20,
+				"food": 75,
+				"gold": 30,
 				"stone": 0
 			},
-			"attack": 50,
+			"attack": 20,
 			"melee_armor": 0,
-			"pierce_armor": 2,
+			"pierce_armor": 0,
 			"base_id": 1263,
 			"help_converter": 26375,
 			"language_file_help": 105375,
 			"name": "FCAMEL",
-			"hit_points": 100,
+			"hit_points": 55,
 			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -28525,7 +28525,7 @@
 				"gold": 45,
 				"stone": 0
 			},
-			"attack": 8,
+			"attack": 9,
 			"melee_armor": 0,
 			"pierce_armor": 1,
 			"base_id": 1370,
@@ -28567,7 +28567,7 @@
 				"gold": 45,
 				"stone": 0
 			},
-			"attack": 10,
+			"attack": 11,
 			"melee_armor": 0,
 			"pierce_armor": 1,
 			"base_id": 1372,
@@ -31742,15 +31742,15 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1523,
-			"help_converter": 26000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26003,
+			"language_file_help": 105003,
+			"name": "CityGate Corner (Rubble)",
+			"hit_points": 0,
+			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
-			"class": -1,
-			"localised_name": "Test String"
+			"class": 14,
+			"localised_name": "Rubble 3 x 3"
 		},
 		"1524": {
 			"cost": {
@@ -38697,7 +38697,7 @@
 			"help_converter": 28267,
 			"language_file_help": 107267,
 			"name": "Chu-Ko-Nu (make avail)",
-			"localised_name": "Couriers"
+			"localised_name": "Fabric Shields"
 		},
 		"269": {
 			"cost": {
@@ -39105,7 +39105,7 @@
 			"help_converter": 28312,
 			"language_file_help": 107312,
 			"name": "C-Bonus, Start w/ 6 villagers",
-			"localised_name": "Elite Kipchak (Mercenary)"
+			"localised_name": "Chieftains"
 		},
 		"303": {
 			"cost": {
@@ -39404,7 +39404,7 @@
 			},
 			"help_converter": 28330,
 			"language_file_help": 107330,
-			"name": "C-Bonus, Inf v Building",
+			"name": "C-Bonus, Inf v Building Age2",
 			"localised_name": ""
 		},
 		"328": {
@@ -39414,9 +39414,9 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28330,
+			"language_file_help": 107330,
+			"name": "C-Bonus, Inf v Building Age3",
 			"localised_name": ""
 		},
 		"329": {
@@ -39426,9 +39426,9 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28330,
+			"language_file_help": 107330,
+			"name": "C-Bonus, Inf v Building Age4",
 			"localised_name": ""
 		},
 		"330": {
@@ -39608,7 +39608,7 @@
 			},
 			"help_converter": 28338,
 			"language_file_help": 107338,
-			"name": "C-Bonus, Infantry Cost -35%",
+			"name": "C-Bonus, Infantry Cost -20%",
 			"localised_name": ""
 		},
 		"345": {
@@ -41037,7 +41037,7 @@
 			"help_converter": 28312,
 			"language_file_help": 107312,
 			"name": "Viking Chieftains",
-			"localised_name": "Elite Kipchak (Mercenary)"
+			"localised_name": "Chieftains"
 		},
 		"464": {
 			"cost": {
@@ -41685,7 +41685,7 @@
 			"help_converter": 28267,
 			"language_file_help": 107267,
 			"name": "Indians UT",
-			"localised_name": "Couriers"
+			"localised_name": "Fabric Shields"
 		},
 		"518": {
 			"cost": {
@@ -42129,7 +42129,7 @@
 			"help_converter": 28312,
 			"language_file_help": 107312,
 			"name": "C-Bonus, Start w/ 4 villagers",
-			"localised_name": "Elite Kipchak (Mercenary)"
+			"localised_name": "Chieftains"
 		},
 		"555": {
 			"cost": {
@@ -44250,9 +44250,9 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"help_converter": 28338,
+			"language_file_help": 107338,
+			"name": "C-Bonus, Infantry Cost -25%",
 			"localised_name": ""
 		},
 		"732": {
@@ -44262,9 +44262,9 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"help_converter": 28338,
+			"language_file_help": 107338,
+			"name": "C-Bonus, Infantry Cost -30%",
 			"localised_name": ""
 		},
 		"733": {
@@ -44274,9 +44274,9 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"help_converter": 28338,
+			"language_file_help": 107338,
+			"name": "C-Bonus, Infantry Cost -35%",
 			"localised_name": ""
 		},
 		"734": {
