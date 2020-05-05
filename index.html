@@ -66,24 +66,6 @@
         .stone.active {
             color: #444;
         }
-
-        #loadHD,
-        #loadWK,
-        #loadDE {
-            cursor: pointer;
-        }
-
-        #loadHD.active,
-        #loadWK.active,
-        #loadDE.active {
-            font-weight: bold;
-        }
-
-        #gcur-notice {
-            font-size: 80%;
-            margin-top: -1rem;
-            margin-bottom: 1rem;
-        }
     </style>
 </head>
 <body>
@@ -103,7 +85,7 @@
     <div class="container content">
         <div class="columns">
             <div class="column is-one-thirds">
-                <input class="input is-rounded " type="search" id="filter" placeholder="Filter...">
+                <input class="input is-rounded" type="text" id="filter" placeholder="Filter...">
             </div>
             <div class="column is-two-thirds has-text-right	">
                 <div class="tabs is-toggle is-toggle-rounded is-inline-block">
@@ -200,7 +182,7 @@
         </table>
     </div>
 </section>
-<script>
+<script type="text/javascript">
     const applyFilter = () => {
         const input = document.getElementById('filter');
         const filter = input.value.replace(/ /g, '_').toLowerCase();
