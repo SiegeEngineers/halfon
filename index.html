@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>[SE] HALFON</title>
+    <title>HALFON | Siege Engineers</title>
     <link rel="stylesheet" href="css/bulma.min.css">
-    <style>
+    <style type="text/css">
         .table.units-buildings-table tbody tr td,
         .table.units-buildings-table thead tr th,
         .table.units-buildings-table tfoot tr th,
@@ -66,127 +66,125 @@
         .stone.active {
             color: #444;
         }
-
-        #loadHD,
-        #loadWK,
-        #loadDE {
-            cursor: pointer;
-        }
-
-        #loadHD.active,
-        #loadWK.active,
-        #loadDE.active {
-            font-weight: bold;
-        }
-
-        #gcur-notice {
-            font-size: 80%;
-            margin-top: -1rem;
-            margin-bottom: 1rem;
-        }
     </style>
 </head>
 <body>
 <section class="hero is-warning is-bold">
     <div class="hero-body">
         <div class="container">
-            <h1 class="title">
-                <img src="SiegeEngineers.png" alt="SE"/> HALFON
+            <h1 class="title is-2">
+                <img src="img/SiegeEngineers.png" alt="Siege Engineers"/> HALFON
             </h1>
-            <h2 class="subtitle">
-                Age of Empires II unit, building and tech reference ·
-                <a href="#units-buildings">Units/Buildings</a> ·
-                <a href="#technologies">Technologies</a> ·
-                <small class="has-text-grey">Version:
-                    <span id='loadDE'>AoEII DE Update 36906</span> |
-                    <span id='loadHD'>AoEII HD Patch 5.8</span> |
-                    <span id='loadWK'>AoEII WK Patch 5.8.1</span>
-                </small>
-            </h2>
-            <div id="gcur-notice">
-                Age of Empires II © Microsoft Corporation.
-                <b>Halfon</b> was created under Microsoft's "<a href="https://www.xbox.com/en-us/developers/rules">Game Content Usage Rules</a>" using assets from Age of Empires II,
-                and it is not endorsed by or affiliated with Microsoft.
-            </div>
-            <p><input class="input" type="text" id="filter" placeholder="Filter…"></p>
+            <p class="subtitle">
+                Age of Empires II unit, building and tech reference.
+            </p>
         </div>
     </div>
 </section>
 <section class="section">
+    <div class="container content">
+        <div class="columns">
+            <div class="column is-one-thirds">
+                <input class="input is-rounded" type="text" id="filter" placeholder="Filter...">
+            </div>
+            <div class="column is-two-thirds has-text-right	">
+                <div class="tabs is-toggle is-toggle-rounded is-inline-block">
+                    <ul class="is-marginless">
+                        <li id="loadDE" class="is-active">
+                            <a><span>AoEII DE Update 36906</span></a>
+                        </li>
+                        <li id="loadHD">
+                            <a><span>AoEII HD Patch 5.8</span></a>
+                        </li>
+                        <li id="loadWK">
+                            <a><span>AoEII WK Patch 5.8.1</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
-        <h3 id="units-buildings" class="title">Units / Buildings</h3>
-        <table class="table is-narrow is-hoverable is-fullwidth units-buildings-table">
+        <div class="tabs is-medium">
+            <ul>
+                <li class="is-active" id="units-buildings"><a>Units / Buildings</a></li>
+                <li id="technologies"><a>Technologies</a></li>
+            </ul>
+        </div>
+        <table class="table is-narrow is-hoverable is-fullwidth units-buildings-table is-small"
+               id="units-buildings-table">
             <thead>
             <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Localised Name<abbr title="often inaccurate for non-conventional units">¹</abbr></th>
-                <th><abbr title="Hitpoints">HP</abbr></th>
-                <th><abbr title="Line of Sight">LOS</abbr></th>
-                <th><abbr title="Attack">ATK</abbr></th>
-                <th><abbr title="Melee Armor">MA</abbr></th>
-                <th><abbr title="Pierce Armor">PA</abbr></th>
-                <th><abbr title="Garrison Capacity">GC</abbr></th>
-                <th><abbr title="Wood Cost">w</abbr></th>
-                <th><abbr title="Food Cost">f</abbr></th>
-                <th><abbr title="Gold Cost">g</abbr></th>
-                <th><abbr title="Stone Cost">s</abbr></th>
-                <th>Type</th>
-                <th>Class</th>
+                <th scope="col">ID</th>
+                <th scope="col" width="15%">Name</th>
+                <th scope="col"><abbr title="often inaccurate for non-conventional units">Localised Name</abbr></th>
+                <th scope="col"><abbr title="Hitpoints">HP</abbr></th>
+                <th scope="col"><abbr title="Line of Sight">LOS</abbr></th>
+                <th scope="col"><abbr title="Attack">ATK</abbr></th>
+                <th scope="col"><abbr title="Melee Armor">MA</abbr></th>
+                <th scope="col"><abbr title="Pierce Armor">PA</abbr></th>
+                <th scope="col"><abbr title="Garrison Capacity">GC</abbr></th>
+                <th scope="col"><abbr title="Wood Cost">Wood</abbr></th>
+                <th scope="col"><abbr title="Food Cost">Food</abbr></th>
+                <th scope="col"><abbr title="Gold Cost">Gold</abbr></th>
+                <th scope="col"><abbr title="Stone Cost">Stone</abbr></th>
+                <th scope="col" width="12%">Type</th>
+                <th scope="col" width="15%">Class</th>
             </tr>
             </thead>
-            <tfoot>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Localised Name<abbr title="often inaccurate for non-conventional units">¹</abbr></th>
-                <th><abbr title="Hitpoints">HP</abbr></th>
-                <th><abbr title="Line of Sight">LOS</abbr></th>
-                <th><abbr title="Attack">ATK</abbr></th>
-                <th><abbr title="Melee Armor">MA</abbr></th>
-                <th><abbr title="Pierce Armor">PA</abbr></th>
-                <th><abbr title="Garrison Capacity">GC</abbr></th>
-                <th><abbr title="Wood Cost">w</abbr></th>
-                <th><abbr title="Food Cost">f</abbr></th>
-                <th><abbr title="Gold Cost">g</abbr></th>
-                <th><abbr title="Stone Cost">s</abbr></th>
-                <th>Type</th>
-                <th>Class</th>
-            </tr>
-            </tfoot>
             <tbody id="units_buildings" class="filterable">
+            <tr><td colspan="15" class="has-text-left is-loading">Loading ...</td></tr>
             </tbody>
-        </table>
-        <h3 id="technologies" class="title">Technologies</h3>
-        <table class="table is-narrow is-hoverable techs-table">
-            <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Localised Name</th>
-                <th><abbr title="Wood Cost">w</abbr></th>
-                <th><abbr title="Food Cost">f</abbr></th>
-                <th><abbr title="Gold Cost">g</abbr></th>
-                <th><abbr title="Stone Cost">s</abbr></th>
-            </tr>
-            </thead>
             <tfoot>
             <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Localised Name</th>
-                <th><abbr title="Wood Cost">w</abbr></th>
-                <th><abbr title="Food Cost">f</abbr></th>
-                <th><abbr title="Gold Cost">g</abbr></th>
-                <th><abbr title="Stone Cost">s</abbr></th>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col"><abbr title="often inaccurate for non-conventional units">Localised Name</abbr></th>
+                <th scope="col"><abbr title="Hitpoints">HP</abbr></th>
+                <th scope="col"><abbr title="Line of Sight">LOS</abbr></th>
+                <th scope="col"><abbr title="Attack">ATK</abbr></th>
+                <th scope="col"><abbr title="Melee Armor">MA</abbr></th>
+                <th scope="col"><abbr title="Pierce Armor">PA</abbr></th>
+                <th scope="col"><abbr title="Garrison Capacity">GC</abbr></th>
+                <th scope="col"><abbr title="Wood Cost">Wood</abbr></th>
+                <th scope="col"><abbr title="Food Cost">Food</abbr></th>
+                <th scope="col"><abbr title="Gold Cost">Gold</abbr></th>
+                <th scope="col"><abbr title="Stone Cost">Stone</abbr></th>
+                <th scope="col">Type</th>
+                <th scope="col">Class</th>
             </tr>
             </tfoot>
+        </table>
+        <table class="table is-narrow is-hoverable techs-table is-hidden" id="technologies-table">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Localised Name</th>
+                <th scope="col"><abbr title="Wood Cost">Wood</abbr></th>
+                <th scope="col"><abbr title="Food Cost">Food</abbr></th>
+                <th scope="col"><abbr title="Gold Cost">Gold</abbr></th>
+                <th scope="col"><abbr title="Stone Cost">Stone</abbr></th>
+            </tr>
+            </thead>
             <tbody id="techs" class="filterable">
+            <tr><td colspan="7">Loading ...</td></tr>
             </tbody>
+            <tfoot>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Localised Name</th>
+                <th scope="col"><abbr title="Wood Cost">Wood</abbr></th>
+                <th scope="col"><abbr title="Food Cost">Food</abbr></th>
+                <th scope="col"><abbr title="Gold Cost">Gold</abbr></th>
+                <th scope="col"><abbr title="Stone Cost">Stone</abbr></th>
+            </tr>
+            </tfoot>
         </table>
     </div>
 </section>
-<script>
+<script type="text/javascript">
     const applyFilter = () => {
         const input = document.getElementById('filter');
         const filter = input.value.replace(/ /g, '_').toLowerCase();
@@ -285,16 +283,16 @@
 
     const toClass = (number) => {
         if (classes.hasOwnProperty('' + number)) {
-            return `<abbr title="${number}">${classes[number]}</abbr>`;
+            return `<div class="tags has-addons"><span class="tag">${classes[number]}</span><span class="tag is-info is-light">${number}</span></div>`;
         } else {
-            return `<abbr title="${number}">No/Invalid Class</abbr>`;
+            return `<div class="tags has-addons"><span class="tag is-danger is-light">No/Invalid Class</span><span class="tag is-dark">${number}</span></div>`;
         }
     };
     const toType = (number) => {
         if (types.hasOwnProperty('' + number)) {
-            return `<abbr title="${number}">${types[number]}</abbr>`;
+            return `<div class="tags has-addons"><span class="tag">${types[number]}</span><span class="tag is-info is-light">${number}</span></div>`;
         } else {
-            return `<abbr title="${number}">No/Invalid Type</abbr>`;
+            return `<div class="tags has-addons"><span class="tag is-danger is-light">No/Invalid Type</span><span class="tag is-dark">${number}</span></div>`;
         }
     };
 
@@ -317,8 +315,8 @@
                     const node = document.createElement('tr');
                     node.id = getid(unit);
                     node.innerHTML = `<td>${unit.base_id}</td>
-                    <td>${unit.name}</td>
-                    <td style='font-style:italic;'>${unit.localised_name}</td>
+                    <td class="is-family-code"><strong>${unit.name}</strong></td>
+                    <td>${unit.localised_name}</td>
                     <td>${unit.hit_points}</td>
                     <td>${unit.line_of_sight}</td>
                     <td>${unit.attack}</td>
@@ -344,8 +342,8 @@
                     const node = document.createElement('tr');
                     node.id = gettechid(id, unit);
                     node.innerHTML = `<td>${id}</td>
-                    <td>${unit.name}</td>
-                    <td style='font-style:italic;'>${unit.localised_name}</td>
+                    <td class="is-family-code"><strong>${unit.name}</strong></td>
+                    <td>${unit.localised_name}</td>
                     <td class="wood${woodClass}">${unit.cost.wood}</td>
                     <td class="food${foodClass}">${unit.cost.food}</td>
                     <td class="gold${goldClass}">${unit.cost.gold}</td>
@@ -363,29 +361,55 @@
         applyFilter();
     });
 
+    document.getElementById('technologies').addEventListener('click', function (e) {
+        document.getElementById('technologies').classList.add('is-active');
+        document.getElementById('technologies-table').classList.remove('is-hidden');
+        document.getElementById('units-buildings').classList.remove('is-active');
+        document.getElementById('units-buildings-table').classList.add('is-hidden');
+    });
+
+    document.getElementById('units-buildings').addEventListener('click', function (e) {
+        document.getElementById('technologies').classList.remove('is-active');
+        document.getElementById('technologies-table').classList.add('is-hidden');
+        document.getElementById('units-buildings').classList.add('is-active');
+        document.getElementById('units-buildings-table').classList.remove('is-hidden');
+    });
+
     document.getElementById('loadDE').addEventListener('click', function (e) {
-        document.getElementById('loadHD').classList.remove('active');
-        document.getElementById('loadWK').classList.remove('active');
-        document.getElementById('loadDE').classList.add('active');
-        init("units_buildings_techs.de.json");
+        document.getElementById('loadHD').classList.remove('is-active');
+        document.getElementById('loadWK').classList.remove('is-active');
+        document.getElementById('loadDE').classList.add('is-active');
+        init("data/units_buildings_techs.de.json");
     });
 
     document.getElementById('loadHD').addEventListener('click', function (e) {
-        document.getElementById('loadHD').classList.add('active');
-        document.getElementById('loadWK').classList.remove('active');
-        document.getElementById('loadDE').classList.remove('active');
-        init("units_buildings_techs.hd.json");
+        document.getElementById('loadHD').classList.add('is-active');
+        document.getElementById('loadWK').classList.remove('is-active');
+        document.getElementById('loadDE').classList.remove('is-active');
+        init("data/units_buildings_techs.hd.json");
     });
 
     document.getElementById('loadWK').addEventListener('click', function (e) {
-        document.getElementById('loadHD').classList.remove('active');
-        document.getElementById('loadWK').classList.add('active');
-        document.getElementById('loadDE').classList.remove('active');
-        init("units_buildings_techs.wk.json");
+        document.getElementById('loadHD').classList.remove('is-active');
+        document.getElementById('loadWK').classList.add('is-active');
+        document.getElementById('loadDE').classList.remove('is-active');
+        init("data/units_buildings_techs.wk.json");
     });
 
-    init("units_buildings_techs.de.json");
-    document.getElementById('loadDE').classList.add('active');
+    init("data/units_buildings_techs.de.json");
+    document.getElementById('loadDE').classList.add('is-active');
 </script>
+<footer class="footer">
+    <div class="container content has-text-grey-light is-size-7">
+        <p>Made by <a href="https://aoe2.se" rel="author" class="has-text-grey">Siege Engineers</a>. You can contribute
+            to this project on <a href="https://github.com/SiegeEngineers/halfon" rel="nofollow" class="has-text-grey">GitHub</a>.
+        </p>
+        <p>Age of Empires II &copy; Microsoft Corporation.<br/>
+            <b>Halfon</b> was created under Microsoft's "<a href="https://www.xbox.com/en-us/developers/rules"
+                                                            rel="nofollow" class="has-text-grey">Game Content Usage
+                Rules</a>" using assets from Age of Empires II, and it is not endorsed by or affiliated with Microsoft.
+        </p>
+    </div>
+</footer>
 </body>
 </html>
