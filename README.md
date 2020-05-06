@@ -7,7 +7,7 @@ Online AoE II Unit/Building/Tech reference for AoE II DE, AoE II HD, and AoE II 
     ```
    php -S localhost:8000
    python3 -m http.server
-   python2 -m SimpleHTTPServerRun a local server to test the project
+   python2 -m SimpleHTTPServer
     ```
 
 ## Authors
