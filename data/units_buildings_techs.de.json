@@ -5823,7 +5823,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF01",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -5845,7 +5845,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF02",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -5867,7 +5867,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF03",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -5889,7 +5889,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF04",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -5911,7 +5911,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF05",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -5933,7 +5933,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF06",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -5955,7 +5955,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF07",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -5977,7 +5977,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF08",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -5999,7 +5999,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF09",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -17954,7 +17954,7 @@
 		},
 		"827": {
 			"cost": {
-				"wood": 110,
+				"wood": 115,
 				"food": 0,
 				"gold": 60,
 				"stone": 0
@@ -17998,7 +17998,7 @@
 		},
 		"829": {
 			"cost": {
-				"wood": 110,
+				"wood": 115,
 				"food": 0,
 				"gold": 60,
 				"stone": 0
@@ -18042,7 +18042,7 @@
 		},
 		"831": {
 			"cost": {
-				"wood": 180,
+				"wood": 190,
 				"food": 0,
 				"gold": 180,
 				"stone": 0
@@ -18064,7 +18064,7 @@
 		},
 		"832": {
 			"cost": {
-				"wood": 180,
+				"wood": 190,
 				"food": 0,
 				"gold": 180,
 				"stone": 0
@@ -19169,7 +19169,7 @@
 				"gold": 35,
 				"stone": 0
 			},
-			"attack": 9,
+			"attack": 10,
 			"melee_armor": 1,
 			"pierce_armor": 0,
 			"base_id": 882,
@@ -21828,7 +21828,7 @@
 			"cost": {
 				"wood": 90,
 				"food": 0,
-				"gold": 40,
+				"gold": 43,
 				"stone": 0
 			},
 			"attack": 6,
@@ -21872,7 +21872,7 @@
 			"cost": {
 				"wood": 90,
 				"food": 0,
-				"gold": 40,
+				"gold": 43,
 				"stone": 0
 			},
 			"attack": 8,
@@ -24445,7 +24445,7 @@
 		"1123": {
 			"cost": {
 				"wood": 0,
-				"food": 30,
+				"food": 25,
 				"gold": 15,
 				"stone": 0
 			},
@@ -24489,7 +24489,7 @@
 		"1125": {
 			"cost": {
 				"wood": 0,
-				"food": 30,
+				"food": 25,
 				"gold": 15,
 				"stone": 0
 			},
@@ -29209,7 +29209,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF01",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -29231,7 +29231,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF02",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -29253,7 +29253,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF03",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -29275,7 +29275,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF04",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -29319,7 +29319,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF06",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -29363,7 +29363,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105249,
 			"name": "CLF08",
-			"hit_points": 1,
+			"hit_points": 10000,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
 			"type": 10,
@@ -35985,7 +35985,7 @@
 			"language_file_name": 5174,
 			"language_file_help": 105174,
 			"name": "TDWS4",
-			"hit_points": 25000,
+			"hit_points": 20000,
 			"line_of_sight": 6,
 			"garrison_capacity": 10,
 			"type": 80,
@@ -37956,7 +37956,7 @@
 		"61": {
 			"cost": {
 				"wood": 0,
-				"food": 1000,
+				"food": 800,
 				"gold": 600,
 				"stone": 0
 			},
@@ -40899,10 +40899,10 @@
 				"stone": 0
 			},
 			"help_converter": 28292,
-			"language_file_name": 7292,
+			"language_file_name": 0,
 			"language_file_help": 107292,
 			"name": "C-Bonus, Free Farming 1",
-			"localised_name": "Double Crossbow"
+			"localised_name": ""
 		},
 		"288": {
 			"cost": {
@@ -41856,7 +41856,7 @@
 		"361": {
 			"cost": {
 				"wood": 0,
-				"food": 1600,
+				"food": 1200,
 				"gold": 800,
 				"stone": 0
 			},
@@ -42240,7 +42240,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Units -15% wood cost",
+			"name": "C-Bonus, Units -20% wood cost",
 			"localised_name": ""
 		},
 		"391": {
@@ -42290,10 +42290,10 @@
 				"stone": 0
 			},
 			"help_converter": 28399,
-			"language_file_name": 7399,
+			"language_file_name": 0,
 			"language_file_help": 107399,
 			"name": "None",
-			"localised_name": "Hill Forts"
+			"localised_name": ""
 		},
 		"395": {
 			"cost": {
@@ -42316,10 +42316,10 @@
 				"stone": 0
 			},
 			"help_converter": 28398,
-			"language_file_name": 7398,
+			"language_file_name": 0,
 			"language_file_help": 107398,
 			"name": "C-Bonus, +25% Demo HP",
-			"localised_name": "Cuman Mercenaries"
+			"localised_name": ""
 		},
 		"397": {
 			"cost": {
@@ -44437,7 +44437,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, All units -15% gold",
+			"name": "C-Bonus, All units -20% gold",
 			"localised_name": ""
 		},
 		"560": {
