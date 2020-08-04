@@ -17682,7 +17682,7 @@
 			"language_file_help": 105714,
 			"name": "HORSE",
 			"hit_points": 50,
-			"line_of_sight": 2,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 61,
@@ -19508,7 +19508,7 @@
 			"language_file_help": 105714,
 			"name": "CAMEL",
 			"hit_points": 50,
-			"line_of_sight": 2,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 61,
@@ -26966,7 +26966,7 @@
 			"language_file_help": 105714,
 			"name": "DROME",
 			"hit_points": 50,
-			"line_of_sight": 2,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 61,
@@ -29584,7 +29584,7 @@
 			"language_file_help": 105049,
 			"name": "HORSEHVY",
 			"hit_points": 50,
-			"line_of_sight": 2,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 61,
@@ -34996,7 +34996,7 @@
 			"language_file_help": 105714,
 			"name": "HORSEGBL",
 			"hit_points": 50,
-			"line_of_sight": 2,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 61,
@@ -35040,7 +35040,7 @@
 			"language_file_help": 105714,
 			"name": "HORSEGBR",
 			"hit_points": 50,
-			"line_of_sight": 2,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 61,
@@ -35084,7 +35084,7 @@
 			"language_file_help": 105714,
 			"name": "HORSEWBR",
 			"hit_points": 50,
-			"line_of_sight": 2,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 61,
@@ -41393,7 +41393,7 @@
 				"stone": 0
 			},
 			"help_converter": 28335,
-			"language_file_name": 7335,
+			"language_file_name": 0,
 			"language_file_help": 107335,
 			"name": "C-Bonus, Castle 1/2 Cost",
 			"localised_name": ""
@@ -41419,7 +41419,7 @@
 				"stone": 0
 			},
 			"help_converter": 28330,
-			"language_file_name": 7330,
+			"language_file_name": 0,
 			"language_file_help": 107330,
 			"name": "C-Bonus, Inf v Building Age2",
 			"localised_name": ""
@@ -41432,7 +41432,7 @@
 				"stone": 0
 			},
 			"help_converter": 28330,
-			"language_file_name": 7330,
+			"language_file_name": 0,
 			"language_file_help": 107330,
 			"name": "C-Bonus, Inf v Building Age3",
 			"localised_name": ""
@@ -41445,7 +41445,7 @@
 				"stone": 0
 			},
 			"help_converter": 28330,
-			"language_file_name": 7330,
+			"language_file_name": 0,
 			"language_file_help": 107330,
 			"name": "C-Bonus, Inf v Building Age4",
 			"localised_name": ""
@@ -41510,7 +41510,7 @@
 				"stone": 0
 			},
 			"help_converter": 28338,
-			"language_file_name": 7338,
+			"language_file_name": 0,
 			"language_file_help": 107338,
 			"name": "C-Bonus, Inf Cav +1 armor Age3",
 			"localised_name": ""
@@ -41523,7 +41523,7 @@
 				"stone": 0
 			},
 			"help_converter": 28338,
-			"language_file_name": 7338,
+			"language_file_name": 0,
 			"language_file_help": 107338,
 			"name": "C-Bonus, Inf Cav +1 armor Age4",
 			"localised_name": ""
@@ -41562,7 +41562,7 @@
 				"stone": 0
 			},
 			"help_converter": 28329,
-			"language_file_name": 7329,
+			"language_file_name": 0,
 			"language_file_help": 107329,
 			"name": "C-Bonus, Arc Accuracy",
 			"localised_name": ""
@@ -41588,7 +41588,7 @@
 				"stone": 0
 			},
 			"help_converter": 28337,
-			"language_file_name": 7337,
+			"language_file_name": 0,
 			"language_file_help": 107337,
 			"name": "C-Bonus, Gather Price",
 			"localised_name": ""
@@ -41640,7 +41640,7 @@
 				"stone": 0
 			},
 			"help_converter": 28338,
-			"language_file_name": 7338,
+			"language_file_name": 0,
 			"language_file_help": 107338,
 			"name": "C-Bonus, Infantry Cost -20%",
 			"localised_name": ""
@@ -41705,7 +41705,7 @@
 				"stone": 0
 			},
 			"help_converter": 28336,
-			"language_file_name": 7336,
+			"language_file_name": 0,
 			"language_file_help": 107336,
 			"name": "C-Bonus, Super Dock",
 			"localised_name": ""
@@ -44006,10 +44006,10 @@
 				"stone": 0
 			},
 			"help_converter": 28316,
-			"language_file_name": 7021,
+			"language_file_name": 0,
 			"language_file_help": 107316,
 			"name": "Hunting Dogs",
-			"localised_name": "Hunting Dogs"
+			"localised_name": ""
 		},
 		"527": {
 			"cost": {
@@ -44344,7 +44344,7 @@
 				"stone": 0
 			},
 			"help_converter": 28316,
-			"language_file_name": 7000,
+			"language_file_name": 0,
 			"language_file_help": 107316,
 			"name": "Hunting Dogs",
 			"localised_name": ""
@@ -46671,7 +46671,7 @@
 				"stone": 0
 			},
 			"help_converter": 28338,
-			"language_file_name": 7338,
+			"language_file_name": 0,
 			"language_file_help": 107338,
 			"name": "C-Bonus, Infantry Cost -25%",
 			"localised_name": ""
@@ -46684,7 +46684,7 @@
 				"stone": 0
 			},
 			"help_converter": 28338,
-			"language_file_name": 7338,
+			"language_file_name": 0,
 			"language_file_help": 107338,
 			"name": "C-Bonus, Infantry Cost -30%",
 			"localised_name": ""
@@ -46697,7 +46697,7 @@
 				"stone": 0
 			},
 			"help_converter": 28338,
-			"language_file_name": 7338,
+			"language_file_name": 0,
 			"language_file_help": 107338,
 			"name": "C-Bonus, Infantry Cost -35%",
 			"localised_name": ""
