@@ -778,7 +778,7 @@
 				"stone": 0
 			},
 			"attack": 2,
-			"melee_armor": 0,
+			"melee_armor": -3,
 			"pierce_armor": 180,
 			"base_id": 35,
 			"help_converter": 26094,
@@ -5261,8 +5261,8 @@
 		"239": {
 			"cost": {
 				"wood": 0,
-				"food": 200,
-				"gold": 75,
+				"food": 170,
+				"gold": 85,
 				"stone": 0
 			},
 			"attack": 15,
@@ -9138,7 +9138,7 @@
 				"stone": 0
 			},
 			"attack": 3,
-			"melee_armor": 0,
+			"melee_armor": -3,
 			"pierce_armor": 190,
 			"base_id": 422,
 			"help_converter": 26289,
@@ -9802,7 +9802,7 @@
 			"pierce_armor": 0,
 			"base_id": 452,
 			"help_converter": 26332,
-			"language_file_name": 5332,
+			"language_file_name": 0,
 			"language_file_help": 105332,
 			"name": "DOLP3",
 			"hit_points": 0,
@@ -9810,7 +9810,7 @@
 			"garrison_capacity": 0,
 			"type": 30,
 			"class": 5,
-			"localised_name": "Dolphin"
+			"localised_name": ""
 		},
 		"453": {
 			"cost": {
@@ -11888,7 +11888,7 @@
 				"stone": 0
 			},
 			"attack": 4,
-			"melee_armor": 0,
+			"melee_armor": -3,
 			"pierce_armor": 195,
 			"base_id": 548,
 			"help_converter": 26446,
@@ -12103,8 +12103,8 @@
 		"558": {
 			"cost": {
 				"wood": 0,
-				"food": 200,
-				"gold": 75,
+				"food": 170,
+				"gold": 85,
 				"stone": 0
 			},
 			"attack": 20,
@@ -14242,7 +14242,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 655,
 			"help_converter": 26552,
@@ -17938,7 +17938,7 @@
 				"stone": 1000
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 826,
 			"help_converter": 26726,
@@ -19082,7 +19082,7 @@
 				"stone": 0
 			},
 			"attack": 14,
-			"melee_armor": 6,
+			"melee_armor": 8,
 			"pierce_armor": 3,
 			"base_id": 878,
 			"help_converter": 26449,
@@ -19236,7 +19236,7 @@
 				"stone": 0
 			},
 			"attack": 6,
-			"melee_armor": 0,
+			"melee_armor": -2,
 			"pierce_armor": 100,
 			"base_id": 885,
 			"help_converter": 26446,
@@ -24054,7 +24054,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": -2,
 			"pierce_armor": 100,
 			"base_id": 1105,
 			"help_converter": 26445,
@@ -27420,7 +27420,7 @@
 				"stone": 0
 			},
 			"attack": 2,
-			"melee_armor": 0,
+			"melee_armor": -3,
 			"pierce_armor": 180,
 			"base_id": 1258,
 			"help_converter": 26094,
@@ -37292,10 +37292,10 @@
 		},
 		"10": {
 			"cost": {
-				"wood": 0,
+				"wood": 450,
 				"food": 0,
 				"gold": 500,
-				"stone": 450
+				"stone": 0
 			},
 			"help_converter": 28425,
 			"language_file_name": 7425,
@@ -41054,10 +41054,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28312,
+			"language_file_name": 7000,
+			"language_file_help": 107312,
+			"name": "C-Bonus, Sheep annex HP",
 			"localised_name": ""
 		},
 		"300": {
@@ -41148,7 +41148,7 @@
 			"help_converter": 28298,
 			"language_file_name": 7000,
 			"language_file_help": 107298,
-			"name": "C-Bonus, Archers +20% attack",
+			"name": "C-Bonus, Better Fishing Ships",
 			"localised_name": ""
 		},
 		"307": {
@@ -41158,10 +41158,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28106,
+			"language_file_name": 7106,
+			"language_file_help": 107106,
+			"name": "Shadow TC Annex",
 			"localised_name": ""
 		},
 		"308": {
@@ -41171,23 +41171,23 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28106,
+			"language_file_name": 7106,
+			"language_file_help": 107106,
+			"name": "Shadow TC Foundation",
 			"localised_name": ""
 		},
 		"309": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
+				"food": 1,
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28106,
+			"language_file_name": 7106,
+			"language_file_help": 107106,
+			"name": "Castle Age start",
 			"localised_name": ""
 		},
 		"310": {
@@ -41197,10 +41197,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28106,
+			"language_file_name": 7106,
+			"language_file_help": 107106,
+			"name": "C-Bonus, Sheep bonus age3 start",
 			"localised_name": ""
 		},
 		"311": {
@@ -41239,7 +41239,7 @@
 			"help_converter": -79000,
 			"language_file_name": 0,
 			"language_file_help": 0,
-			"name": "None",
+			"name": "Xolotl (disable)",
 			"localised_name": ""
 		},
 		"314": {
@@ -46978,8 +46978,8 @@
 		"755": {
 			"cost": {
 				"wood": 0,
-				"food": 800,
-				"gold": 450,
+				"food": 1200,
+				"gold": 650,
 				"stone": 0
 			},
 			"help_converter": 28343,
