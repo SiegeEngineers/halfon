@@ -557,8 +557,8 @@
 				"gold": 40,
 				"stone": 0
 			},
-			"attack": 12,
-			"melee_armor": 5,
+			"attack": 14,
+			"melee_armor": 7,
 			"pierce_armor": 2,
 			"base_id": 25,
 			"help_converter": 26112,
@@ -1548,7 +1548,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": -2,
 			"pierce_armor": 7,
 			"base_id": 70,
 			"help_converter": 26344,
@@ -1586,7 +1586,7 @@
 		},
 		"72": {
 			"cost": {
-				"wood": 2,
+				"wood": 3,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
@@ -2620,7 +2620,7 @@
 		},
 		"119": {
 			"cost": {
-				"wood": 2,
+				"wood": 3,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
@@ -4210,7 +4210,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 1,
 			"pierce_armor": 9,
 			"base_id": 191,
 			"help_converter": 26344,
@@ -5111,7 +5111,7 @@
 				"gold": 25,
 				"stone": 0
 			},
-			"attack": 8,
+			"attack": 10,
 			"melee_armor": 0,
 			"pierce_armor": 1,
 			"base_id": 232,
@@ -6409,7 +6409,7 @@
 				"gold": 30,
 				"stone": 0
 			},
-			"attack": 8,
+			"attack": 10,
 			"melee_armor": 1,
 			"pierce_armor": 1,
 			"base_id": 291,
@@ -6417,7 +6417,7 @@
 			"language_file_name": 5110,
 			"language_file_help": 105110,
 			"name": "SMURI",
-			"hit_points": 60,
+			"hit_points": 70,
 			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -10040,7 +10040,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 1,
+			"melee_armor": -1,
 			"pierce_armor": 8,
 			"base_id": 463,
 			"help_converter": 26344,
@@ -10062,7 +10062,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 1,
 			"pierce_armor": 9,
 			"base_id": 464,
 			"help_converter": 26344,
@@ -15055,8 +15055,8 @@
 				"gold": 25,
 				"stone": 0
 			},
-			"attack": 9,
-			"melee_armor": 0,
+			"attack": 12,
+			"melee_armor": 1,
 			"pierce_armor": 1,
 			"base_id": 692,
 			"help_converter": 26574,
@@ -15789,7 +15789,7 @@
 			"language_file_name": 5667,
 			"language_file_help": 105667,
 			"name": "JAGUAR",
-			"hit_points": 50,
+			"hit_points": 65,
 			"line_of_sight": 3,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -19104,14 +19104,14 @@
 				"stone": 0
 			},
 			"attack": 7,
-			"melee_armor": 0,
+			"melee_armor": 1,
 			"pierce_armor": 0,
 			"base_id": 879,
 			"help_converter": 26686,
 			"language_file_name": 5686,
 			"language_file_help": 105686,
 			"name": "KAMAY",
-			"hit_points": 60,
+			"hit_points": 70,
 			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -22037,7 +22037,7 @@
 			"language_file_name": 5140,
 			"language_file_help": 105140,
 			"name": "GBETO",
-			"hit_points": 30,
+			"hit_points": 35,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -22103,7 +22103,7 @@
 			"language_file_name": 5143,
 			"language_file_help": 105143,
 			"name": "SHOTEL",
-			"hit_points": 40,
+			"hit_points": 45,
 			"line_of_sight": 3,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -42205,7 +42205,7 @@
 			"language_file_name": 7218,
 			"language_file_help": 107218,
 			"name": "Heavy Cavalry Archer",
-			"localised_name": "Heavy Cav Archer"
+			"localised_name": "Heavy Cavalry Archer"
 		},
 		"219": {
 			"cost": {
@@ -44095,8 +44095,8 @@
 		"364": {
 			"cost": {
 				"wood": 0,
-				"food": 1200,
-				"gold": 600,
+				"food": 950,
+				"gold": 500,
 				"stone": 0
 			},
 			"help_converter": 28391,
@@ -44121,8 +44121,8 @@
 		"366": {
 			"cost": {
 				"wood": 0,
-				"food": 950,
-				"gold": 875,
+				"food": 750,
+				"gold": 650,
 				"stone": 0
 			},
 			"help_converter": 28387,
@@ -44453,7 +44453,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, +20%HP",
+			"name": "C-Bonus, Inf +20% HP",
 			"localised_name": ""
 		},
 		"392": {
@@ -44537,8 +44537,8 @@
 		"398": {
 			"cost": {
 				"wood": 0,
-				"food": 1300,
-				"gold": 550,
+				"food": 1075,
+				"gold": 475,
 				"stone": 0
 			},
 			"help_converter": 28401,
@@ -44765,7 +44765,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, +15%HP",
+			"name": "C-Bonus, Inf +15% HP",
 			"localised_name": ""
 		},
 		"416": {
@@ -44778,7 +44778,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, +10%HP",
+			"name": "C-Bonus, Inf +20% HP",
 			"localised_name": ""
 		},
 		"417": {
@@ -46760,8 +46760,8 @@
 		"569": {
 			"cost": {
 				"wood": 0,
-				"food": 1200,
-				"gold": 550,
+				"food": 900,
+				"gold": 450,
 				"stone": 0
 			},
 			"help_converter": 28245,
