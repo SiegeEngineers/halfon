@@ -1423,7 +1423,7 @@
 			"language_file_name": 21025,
 			"language_file_help": 105185,
 			"name": "GTAA2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -1731,7 +1731,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTAB2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -1797,7 +1797,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTAC2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -1951,7 +1951,7 @@
 			"language_file_name": 21026,
 			"language_file_help": 105185,
 			"name": "GTBA2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -2017,7 +2017,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTBB2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -2105,7 +2105,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTBC2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -2589,7 +2589,7 @@
 			"language_file_name": 5203,
 			"language_file_help": 105203,
 			"name": "WALL2",
-			"hit_points": 900,
+			"hit_points": 1080,
 			"line_of_sight": 2,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -10553,7 +10553,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTAX2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -10619,7 +10619,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTBX2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -14337,7 +14337,7 @@
 			"language_file_name": 21027,
 			"language_file_help": 105185,
 			"name": "GTCA2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -14381,7 +14381,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTCB2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -14425,7 +14425,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTCC2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -14469,7 +14469,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTCX2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -14513,7 +14513,7 @@
 			"language_file_name": 21028,
 			"language_file_help": 105185,
 			"name": "GTDA2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -14557,7 +14557,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTDB2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -14601,7 +14601,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTDC2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -14645,7 +14645,7 @@
 			"language_file_name": 5185,
 			"language_file_help": 105185,
 			"name": "GTDX2",
-			"hit_points": 1375,
+			"hit_points": 1650,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 80,
@@ -18967,7 +18967,7 @@
 		"873": {
 			"cost": {
 				"wood": 0,
-				"food": 90,
+				"food": 80,
 				"gold": 70,
 				"stone": 0
 			},
@@ -19011,7 +19011,7 @@
 		"875": {
 			"cost": {
 				"wood": 0,
-				"food": 90,
+				"food": 80,
 				"gold": 70,
 				"stone": 0
 			},
@@ -38185,7 +38185,7 @@
 			"language_file_name": 5431,
 			"language_file_help": 105431,
 			"name": "GHULAM",
-			"hit_points": 65,
+			"hit_points": 55,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -38229,7 +38229,7 @@
 			"language_file_name": 5432,
 			"language_file_help": 105432,
 			"name": "EGHULAM",
-			"hit_points": 75,
+			"hit_points": 65,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -40501,7 +40501,7 @@
 			"help_converter": 28087,
 			"language_file_name": 7087,
 			"language_file_help": 107087,
-			"name": "Pike",
+			"name": "Spearman (make avail)",
 			"localised_name": ""
 		},
 		"88": {
@@ -40663,8 +40663,8 @@
 		"100": {
 			"cost": {
 				"wood": 0,
-				"food": 125,
-				"gold": 75,
+				"food": 175,
+				"gold": 125,
 				"stone": 0
 			},
 			"help_converter": 28100,
@@ -42444,8 +42444,8 @@
 		"237": {
 			"cost": {
 				"wood": 0,
-				"food": 350,
-				"gold": 300,
+				"food": 450,
+				"gold": 400,
 				"stone": 0
 			},
 			"help_converter": 28233,
@@ -45113,10 +45113,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "Free Guard Tower",
+			"help_converter": -79000,
+			"language_file_name": 0,
+			"language_file_help": 0,
+			"name": "New Research",
 			"localised_name": ""
 		},
 		"443": {
@@ -45126,10 +45126,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "Free Keep",
+			"help_converter": -79000,
+			"language_file_name": 0,
+			"language_file_help": 0,
+			"name": "New Research",
 			"localised_name": ""
 		},
 		"444": {
@@ -45139,10 +45139,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "Free Bombard Tower",
+			"help_converter": -79000,
+			"language_file_name": 0,
+			"language_file_help": 0,
+			"name": "New Research",
 			"localised_name": ""
 		},
 		"445": {
@@ -47001,7 +47001,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, +100 gold, food feuda",
+			"name": "C-Bonus, +100f, +100g in age2",
 			"localised_name": ""
 		},
 		"588": {
@@ -47014,7 +47014,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, +100 gold, food castl",
+			"name": "C-Bonus, +100f, +100g in age3",
 			"localised_name": ""
 		},
 		"589": {
@@ -47027,7 +47027,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, +100 gold, food imp",
+			"name": "C-Bonus, +100f, +100g in age4",
 			"localised_name": ""
 		},
 		"590": {
@@ -50322,8 +50322,8 @@
 		"843": {
 			"cost": {
 				"wood": 0,
-				"food": 800,
-				"gold": 600,
+				"food": 850,
+				"gold": 500,
 				"stone": 0
 			},
 			"help_converter": 28365,
@@ -50680,7 +50680,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Monk armor",
 			"localised_name": ""
 		},
 		"871": {
@@ -50693,7 +50693,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, +100f, +100g GS",
 			"localised_name": ""
 		},
 		"872": {
@@ -50706,7 +50706,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, +200w GS",
 			"localised_name": ""
 		},
 		"873": {
@@ -50719,7 +50719,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, +2vill GS",
 			"localised_name": ""
 		},
 		"874": {
