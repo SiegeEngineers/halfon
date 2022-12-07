@@ -24643,7 +24643,7 @@
 		"1132": {
 			"cost": {
 				"wood": 0,
-				"food": 120,
+				"food": 110,
 				"gold": 70,
 				"stone": 0
 			},
@@ -24687,7 +24687,7 @@
 		"1134": {
 			"cost": {
 				"wood": 0,
-				"food": 120,
+				"food": 110,
 				"gold": 70,
 				"stone": 0
 			},
@@ -38045,7 +38045,7 @@
 				"gold": 30,
 				"stone": 0
 			},
-			"attack": 5,
+			"attack": 3,
 			"melee_armor": 1,
 			"pierce_armor": 0,
 			"base_id": 1741,
@@ -38089,7 +38089,7 @@
 				"gold": 30,
 				"stone": 0
 			},
-			"attack": 6,
+			"attack": 4,
 			"melee_armor": 1,
 			"pierce_armor": 0,
 			"base_id": 1743,
@@ -44505,7 +44505,7 @@
 			"help_converter": 28400,
 			"language_file_name": 7000,
 			"language_file_help": 107400,
-			"name": "C-Bonus, Vik Boats -10%",
+			"name": "C-Bonus, Warship cost age2",
 			"localised_name": ""
 		},
 		"396": {
@@ -45259,7 +45259,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Techs 30% faster",
+			"name": "C-Bonus, Foragers generate wood",
 			"localised_name": ""
 		},
 		"454": {
@@ -45883,7 +45883,7 @@
 			"help_converter": 28400,
 			"language_file_name": 7000,
 			"language_file_help": 107400,
-			"name": "C-Bonus, Vik Boats -15%",
+			"name": "C-Bonus, Warship cost age3",
 			"localised_name": ""
 		},
 		"502": {
@@ -45896,7 +45896,7 @@
 			"help_converter": 28400,
 			"language_file_name": 7000,
 			"language_file_help": 107400,
-			"name": "C-Bonus, Vik Boats -20%",
+			"name": "C-Bonus, Warship cost age4",
 			"localised_name": ""
 		},
 		"503": {
@@ -47168,10 +47168,10 @@
 				"stone": 0
 			},
 			"help_converter": 28000,
-			"language_file_name": 7288,
+			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "T-Bonus, Free Cartography",
-			"localised_name": "Free Cartography"
+			"name": "RESERVED",
+			"localised_name": ""
 		},
 		"601": {
 			"cost": {
@@ -48535,7 +48535,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Siege Wksp (make avail)",
+			"name": "C-Bonus, Age2 Siege Wksp",
 			"localised_name": ""
 		},
 		"706": {
@@ -50472,7 +50472,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Bonus damage increase",
+			"name": "C-Bonus, +20% Cav bonus damage",
 			"localised_name": ""
 		},
 		"855": {
@@ -50537,7 +50537,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "Camel Scout extra bonus damage",
+			"name": "C-Bonus, +30% Cav bonus damage",
 			"localised_name": ""
 		},
 		"860": {
@@ -50732,7 +50732,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, +40% Cav bonus damage",
 			"localised_name": ""
 		},
 		"875": {
