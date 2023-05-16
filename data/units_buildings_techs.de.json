@@ -42,7 +42,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Legionary"
+			"localised_name": "Imperial Legionary"
 		},
 		"2": {
 			"cost": {
@@ -6070,7 +6070,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Centurion"
+			"localised_name": "Imperial Centurion"
 		},
 		"276": {
 			"cost": {
@@ -16511,9 +16511,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 6,
 			"base_id": 759,
-			"help_converter": 26679,
-			"language_file_name": 5679,
-			"language_file_help": 105679,
+			"help_converter": 26104,
+			"language_file_name": 5104,
+			"language_file_help": 105104,
 			"name": "BHUSK",
 			"hit_points": 60,
 			"line_of_sight": 3,
@@ -16555,9 +16555,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 8,
 			"base_id": 761,
-			"help_converter": 26681,
-			"language_file_name": 5681,
-			"language_file_help": 105681,
+			"help_converter": 26454,
+			"language_file_name": 5454,
+			"language_file_help": 105454,
 			"name": "BHUSKX",
 			"hit_points": 70,
 			"line_of_sight": 5,
@@ -39119,24 +39119,24 @@
 		"1790": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
-				"gold": 0,
+				"food": 75,
+				"gold": 85,
 				"stone": 0
 			},
-			"attack": 0,
-			"melee_armor": 0,
-			"pierce_armor": 0,
+			"attack": 13,
+			"melee_armor": 2,
+			"pierce_armor": 3,
 			"base_id": 1790,
-			"help_converter": 26000,
-			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26052,
+			"language_file_name": 5052,
+			"language_file_help": 105052,
+			"name": "CENTURION",
+			"hit_points": 120,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": ""
+			"type": 70,
+			"class": 12,
+			"localised_name": "Centurion"
 		},
 		"1791": {
 			"cost": {
@@ -39149,60 +39149,60 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1791,
-			"help_converter": 26000,
+			"help_converter": 26013,
 			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"language_file_help": 105013,
+			"name": "CENTURION_D",
+			"hit_points": 0,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
+			"type": 30,
+			"class": 11,
 			"localised_name": ""
 		},
 		"1792": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
-				"gold": 0,
+				"food": 75,
+				"gold": 85,
 				"stone": 0
 			},
-			"attack": 0,
-			"melee_armor": 0,
-			"pierce_armor": 0,
+			"attack": 15,
+			"melee_armor": 3,
+			"pierce_armor": 3,
 			"base_id": 1792,
-			"help_converter": 26000,
-			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26053,
+			"language_file_name": 5053,
+			"language_file_help": 105053,
+			"name": "ECENTURION",
+			"hit_points": 155,
+			"line_of_sight": 5,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": ""
+			"type": 70,
+			"class": 12,
+			"localised_name": "Elite Centurion"
 		},
 		"1793": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
-				"gold": 0,
+				"food": 60,
+				"gold": 20,
 				"stone": 0
 			},
-			"attack": 0,
-			"melee_armor": 0,
-			"pierce_armor": 0,
+			"attack": 12,
+			"melee_armor": 2,
+			"pierce_armor": 2,
 			"base_id": 1793,
-			"help_converter": 26000,
-			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26054,
+			"language_file_name": 5054,
+			"language_file_help": 105054,
+			"name": "LEGIONARY",
+			"hit_points": 75,
+			"line_of_sight": 5,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": ""
+			"type": 70,
+			"class": 6,
+			"localised_name": "Legionary"
 		},
 		"1794": {
 			"cost": {
@@ -39215,43 +39215,43 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1794,
-			"help_converter": 26000,
+			"help_converter": 26668,
 			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"language_file_help": 105668,
+			"name": "LEGION_D",
+			"hit_points": 0,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
+			"type": 30,
+			"class": 11,
 			"localised_name": ""
 		},
 		"1795": {
 			"cost": {
-				"wood": 0,
+				"wood": 175,
 				"food": 0,
-				"gold": 0,
+				"gold": 150,
 				"stone": 0
 			},
-			"attack": 0,
-			"melee_armor": 0,
-			"pierce_armor": 0,
+			"attack": 50,
+			"melee_armor": 1,
+			"pierce_armor": 6,
 			"base_id": 1795,
-			"help_converter": 26000,
-			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26055,
+			"language_file_name": 5055,
+			"language_file_help": 105055,
+			"name": "DROMON",
+			"hit_points": 125,
+			"line_of_sight": 14,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": ""
+			"type": 70,
+			"class": 22,
+			"localised_name": "Dromon"
 		},
 		"1796": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
+				"food": 50,
 				"gold": 0,
 				"stone": 0
 			},
@@ -39259,16 +39259,16 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1796,
-			"help_converter": 26000,
-			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
+			"help_converter": 26063,
+			"language_file_name": 5063,
+			"language_file_help": 105063,
+			"name": "GAZELLE",
+			"hit_points": 5,
 			"line_of_sight": 2,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": ""
+			"type": 70,
+			"class": 9,
+			"localised_name": "Gazelle"
 		},
 		"1797": {
 			"cost": {
@@ -39281,15 +39281,15 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1797,
-			"help_converter": 26000,
+			"help_converter": 26017,
 			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"language_file_help": 105017,
+			"name": "GAZELLE_D",
+			"hit_points": 0,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
+			"type": 30,
+			"class": 11,
 			"localised_name": ""
 		},
 		"1798": {
@@ -40657,7 +40657,7 @@
 			"help_converter": 28099,
 			"language_file_name": 7099,
 			"language_file_help": 107099,
-			"name": "Crossbow",
+			"name": "Skirmisher (make avail)",
 			"localised_name": ""
 		},
 		"100": {
@@ -40891,7 +40891,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "Palisade Wall",
+			"name": "Disable Spies (Regicide only)",
 			"localised_name": ""
 		},
 		"118": {
@@ -44531,7 +44531,7 @@
 			"help_converter": 28396,
 			"language_file_name": 7000,
 			"language_file_help": 107396,
-			"name": "C-Bonus, +20% Fire atk",
+			"name": "C-Bonus, Navy attack speed",
 			"localised_name": ""
 		},
 		"398": {
@@ -46169,7 +46169,7 @@
 			"help_converter": 28213,
 			"language_file_name": 7213,
 			"language_file_help": 107213,
-			"name": "Palisade Gate (make avail)",
+			"name": "Palisade Wall (make avail)",
 			"localised_name": ""
 		},
 		"524": {
@@ -47323,10 +47323,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "Fire ships auto ballistics",
+			"help_converter": -79000,
+			"language_file_name": 0,
+			"language_file_help": 0,
+			"name": "New Research",
 			"localised_name": ""
 		},
 		"613": {
@@ -48561,7 +48561,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "Cuman Merc (make avail)",
+			"name": "Cuman Merc Part2",
 			"localised_name": ""
 		},
 		"708": {
@@ -50802,16 +50802,16 @@
 		},
 		"880": {
 			"cost": {
-				"wood": 0,
+				"wood": 1,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
 			},
 			"help_converter": 28000,
-			"language_file_name": 7000,
+			"language_file_name": 10313,
 			"language_file_help": 107000,
-			"name": "RESERVED",
-			"localised_name": ""
+			"name": "",
+			"localised_name": "Romans"
 		},
 		"881": {
 			"cost": {
@@ -50823,60 +50823,60 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "Centurion (make avail)",
 			"localised_name": ""
 		},
 		"882": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
-				"gold": 0,
+				"food": 1100,
+				"gold": 900,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
-			"localised_name": ""
+			"help_converter": 28443,
+			"language_file_name": 7443,
+			"language_file_help": 107443,
+			"name": "Elite Centurion",
+			"localised_name": "Elite Centurion"
 		},
 		"883": {
 			"cost": {
-				"wood": 0,
+				"wood": 400,
 				"food": 0,
-				"gold": 0,
+				"gold": 300,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
-			"localised_name": ""
+			"help_converter": 28444,
+			"language_file_name": 7444,
+			"language_file_help": 107444,
+			"name": "Ballistas",
+			"localised_name": "Ballistas"
 		},
 		"884": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
-				"gold": 0,
+				"food": 700,
+				"gold": 800,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
-			"localised_name": ""
+			"help_converter": 28445,
+			"language_file_name": 7445,
+			"language_file_help": 107445,
+			"name": "Comitatenses",
+			"localised_name": "Comitatenses"
 		},
 		"885": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
-				"gold": 0,
+				"food": 800,
+				"gold": 400,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
-			"localised_name": ""
+			"help_converter": 28446,
+			"language_file_name": 7446,
+			"language_file_help": 107446,
+			"name": "Legionary",
+			"localised_name": "Legionary"
 		},
 		"886": {
 			"cost": {
@@ -50888,7 +50888,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "Dromon (make avail)",
 			"localised_name": ""
 		},
 		"887": {
@@ -50901,7 +50901,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Villagers work faster",
 			"localised_name": ""
 		},
 		"888": {
@@ -50911,10 +50911,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"help_converter": 28338,
+			"language_file_name": 0,
+			"language_file_help": 107338,
+			"name": "C-Bonus, Navy attack and armor",
 			"localised_name": ""
 		},
 		"889": {
@@ -50924,10 +50924,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"help_converter": 28338,
+			"language_file_name": 0,
+			"language_file_help": 107338,
+			"name": "C-Bonus, Double Scale Mail",
 			"localised_name": ""
 		},
 		"890": {
@@ -50937,10 +50937,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"help_converter": 28338,
+			"language_file_name": 0,
+			"language_file_help": 107338,
+			"name": "C-Bonus, Double Chain Mail",
 			"localised_name": ""
 		},
 		"891": {
@@ -50950,10 +50950,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"help_converter": 28338,
+			"language_file_name": 0,
+			"language_file_help": 107338,
+			"name": "C-Bonus, Double Plate Mail",
 			"localised_name": ""
 		},
 		"892": {
@@ -50966,7 +50966,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Cheaper scorpions",
 			"localised_name": ""
 		},
 		"893": {
@@ -50979,7 +50979,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Ballistics affect scorpions",
 			"localised_name": ""
 		},
 		"894": {
@@ -50989,10 +50989,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
+			"help_converter": 28402,
 			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"language_file_help": 107402,
+			"name": "[FTT] Move Dromon",
 			"localised_name": ""
 		},
 		"895": {
@@ -51002,10 +51002,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
+			"help_converter": 28402,
 			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "RESERVED",
+			"language_file_help": 107402,
+			"name": "[FTT] Disable militia upgrades",
 			"localised_name": ""
 		},
 		"896": {
