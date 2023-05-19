@@ -93,6 +93,9 @@
                         <li id="loadDE" class="is-active">
                             <a><span>AoEII DE Update 83607</span></a>
                         </li>
+                        <li id="loadROR">
+                            <a><span>AoEII ROR Update 83607</span></a>
+                        </li>
                         <li id="loadHD">
                             <a><span>AoEII HD Patch 5.8</span></a>
                         </li>
@@ -379,13 +382,23 @@
         document.getElementById('loadHD').classList.remove('is-active');
         document.getElementById('loadWK').classList.remove('is-active');
         document.getElementById('loadDE').classList.add('is-active');
+        document.getElementById('loadROR').classList.remove('is-active');
         init("data/units_buildings_techs.de.json");
+    });
+
+    document.getElementById('loadROR').addEventListener('click', function (e) {
+        document.getElementById('loadHD').classList.remove('is-active');
+        document.getElementById('loadWK').classList.remove('is-active');
+        document.getElementById('loadDE').classList.remove('is-active');
+        document.getElementById('loadROR').classList.add('is-active');
+        init("data/units_buildings_techs.ror.json");
     });
 
     document.getElementById('loadHD').addEventListener('click', function (e) {
         document.getElementById('loadHD').classList.add('is-active');
         document.getElementById('loadWK').classList.remove('is-active');
         document.getElementById('loadDE').classList.remove('is-active');
+        document.getElementById('loadROR').classList.remove('is-active');
         init("data/units_buildings_techs.hd.json");
     });
 
@@ -393,6 +406,7 @@
         document.getElementById('loadHD').classList.remove('is-active');
         document.getElementById('loadWK').classList.add('is-active');
         document.getElementById('loadDE').classList.remove('is-active');
+        document.getElementById('loadROR').classList.remove('is-active');
         init("data/units_buildings_techs.wk.json");
     });
 
