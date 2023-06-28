@@ -787,7 +787,7 @@
 			"name": "BTRAM",
 			"hit_points": 175,
 			"line_of_sight": 3,
-			"garrison_capacity": 4,
+			"garrison_capacity": 6,
 			"type": 70,
 			"class": 13,
 			"localised_name": "Battering Ram"
@@ -9147,7 +9147,7 @@
 			"name": "CBATR",
 			"hit_points": 200,
 			"line_of_sight": 3,
-			"garrison_capacity": 5,
+			"garrison_capacity": 6,
 			"type": 70,
 			"class": 13,
 			"localised_name": "Capped Ram"
@@ -11011,10 +11011,10 @@
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 508,
-			"help_converter": 26067,
+			"help_converter": 26554,
 			"language_file_name": 0,
-			"language_file_help": 105067,
-			"name": "Projectile AHX",
+			"language_file_help": 105554,
+			"name": "Projectile Dromon",
 			"hit_points": 1,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
@@ -11275,10 +11275,10 @@
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 520,
-			"help_converter": 26067,
+			"help_converter": 26556,
 			"language_file_name": 0,
-			"language_file_help": 105067,
-			"name": "Projectile AHX (Fire)",
+			"language_file_help": 105556,
+			"name": "Projectile Dromon (Fire)",
 			"hit_points": 1,
 			"line_of_sight": -1,
 			"garrison_capacity": 0,
@@ -11763,7 +11763,7 @@
 			"language_file_name": 5439,
 			"language_file_help": 105439,
 			"name": "HWBAL",
-			"hit_points": 50,
+			"hit_points": 55,
 			"line_of_sight": 9,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -17954,7 +17954,7 @@
 		},
 		"827": {
 			"cost": {
-				"wood": 125,
+				"wood": 200,
 				"food": 0,
 				"gold": 60,
 				"stone": 0
@@ -17998,7 +17998,7 @@
 		},
 		"829": {
 			"cost": {
-				"wood": 125,
+				"wood": 200,
 				"food": 0,
 				"gold": 60,
 				"stone": 0
@@ -22202,8 +22202,8 @@
 			"cost": {
 				"wood": 0,
 				"food": 0,
-				"gold": 250,
-				"stone": 250
+				"gold": 350,
+				"stone": 300
 			},
 			"attack": 0,
 			"melee_armor": 3,
@@ -24559,7 +24559,7 @@
 				"gold": 60,
 				"stone": 0
 			},
-			"attack": 15,
+			"attack": 14,
 			"melee_armor": 0,
 			"pierce_armor": 2,
 			"base_id": 1128,
@@ -24656,7 +24656,7 @@
 			"language_file_help": 105167,
 			"name": "BATELE",
 			"hit_points": 250,
-			"line_of_sight": 4,
+			"line_of_sight": 7,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
@@ -24700,7 +24700,7 @@
 			"language_file_help": 105168,
 			"name": "EBATELE",
 			"hit_points": 300,
-			"line_of_sight": 5,
+			"line_of_sight": 8,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
@@ -27288,8 +27288,8 @@
 				"stone": 0
 			},
 			"attack": 12,
-			"melee_armor": 0,
-			"pierce_armor": 0,
+			"melee_armor": 2,
+			"pierce_armor": 1,
 			"base_id": 1252,
 			"help_converter": 26288,
 			"language_file_name": 21057,
@@ -27310,8 +27310,8 @@
 				"stone": 0
 			},
 			"attack": 13,
-			"melee_armor": 0,
-			"pierce_armor": 1,
+			"melee_armor": 2,
+			"pierce_armor": 2,
 			"base_id": 1253,
 			"help_converter": 26290,
 			"language_file_name": 21058,
@@ -27429,7 +27429,7 @@
 			"name": "BTRAM",
 			"hit_points": 175,
 			"line_of_sight": 3,
-			"garrison_capacity": 4,
+			"garrison_capacity": 6,
 			"type": 70,
 			"class": 13,
 			"localised_name": "Battering Ram"
@@ -38177,7 +38177,7 @@
 				"gold": 45,
 				"stone": 0
 			},
-			"attack": 8,
+			"attack": 9,
 			"melee_armor": 0,
 			"pierce_armor": 3,
 			"base_id": 1747,
@@ -38185,7 +38185,7 @@
 			"language_file_name": 5431,
 			"language_file_help": 105431,
 			"name": "GHULAM",
-			"hit_points": 55,
+			"hit_points": 60,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -38221,7 +38221,7 @@
 				"gold": 45,
 				"stone": 0
 			},
-			"attack": 10,
+			"attack": 11,
 			"melee_armor": 0,
 			"pierce_armor": 6,
 			"base_id": 1749,
@@ -38229,7 +38229,7 @@
 			"language_file_name": 5432,
 			"language_file_help": 105432,
 			"name": "EGHULAM",
-			"hit_points": 65,
+			"hit_points": 70,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -39300,18 +39300,18 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1798,
-			"help_converter": 26000,
+			"help_converter": 26554,
 			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
+			"language_file_help": 105554,
+			"name": "Projectile Dromon (Greek Fire)",
 			"hit_points": 1,
-			"line_of_sight": 2,
+			"line_of_sight": -1,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
+			"type": 60,
+			"class": 11,
 			"localised_name": ""
 		},
 		"1799": {
@@ -39325,15 +39325,15 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1799,
-			"help_converter": 26000,
+			"help_converter": 26317,
 			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"language_file_help": 105317,
+			"name": "Trail Smoke (Fire)",
+			"hit_points": 0,
+			"line_of_sight": -1,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
+			"type": 20,
+			"class": 11,
 			"localised_name": ""
 		},
 		"1800": {
@@ -41728,8 +41728,8 @@
 		},
 		"182": {
 			"cost": {
-				"wood": 150,
-				"food": 200,
+				"wood": 75,
+				"food": 175,
 				"gold": 0,
 				"stone": 0
 			},
@@ -42367,7 +42367,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 0,
-				"gold": 120,
+				"gold": 175,
 				"stone": 0
 			},
 			"help_converter": 28221,
@@ -42734,10 +42734,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "Post-TC +50f +50w",
 			"localised_name": ""
 		},
 		"260": {
@@ -42747,10 +42747,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "Post-TC +50g",
 			"localised_name": ""
 		},
 		"261": {
@@ -42760,10 +42760,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "Post-TC +100s",
 			"localised_name": ""
 		},
 		"262": {
@@ -42989,8 +42989,8 @@
 		},
 		"279": {
 			"cost": {
-				"wood": 150,
-				"food": 200,
+				"wood": 75,
+				"food": 175,
 				"gold": 0,
 				"stone": 0
 			},
@@ -44440,7 +44440,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Units -20% wood cost",
+			"name": "C-Bonus, Units cost less wood",
 			"localised_name": ""
 		},
 		"391": {
@@ -45412,10 +45412,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28019,
+			"help_converter": 28000,
 			"language_file_name": 7000,
-			"language_file_help": 107019,
-			"name": "Cartography",
+			"language_file_help": 107000,
+			"name": "Greek Fire + Chemistry",
 			"localised_name": ""
 		},
 		"466": {
@@ -45784,8 +45784,8 @@
 		},
 		"494": {
 			"cost": {
-				"wood": 0,
-				"food": 300,
+				"wood": 200,
+				"food": 0,
 				"gold": 150,
 				"stone": 0
 			},
@@ -45940,8 +45940,8 @@
 		},
 		"506": {
 			"cost": {
-				"wood": 400,
-				"food": 400,
+				"wood": 200,
+				"food": 250,
 				"gold": 0,
 				"stone": 0
 			},
@@ -46000,7 +46000,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "Siege Tower (make avail)",
+			"name": "C-Bonus, Monks 20% faster",
 			"localised_name": ""
 		},
 		"511": {
@@ -46182,7 +46182,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, +15% faster foragers ",
+			"name": "C-Bonus, 15% faster foragers",
 			"localised_name": ""
 		},
 		"525": {
@@ -47514,8 +47514,8 @@
 		"627": {
 			"cost": {
 				"wood": 0,
-				"food": 400,
-				"gold": 400,
+				"food": 300,
+				"gold": 300,
 				"stone": 0
 			},
 			"help_converter": 28296,
@@ -47566,8 +47566,8 @@
 		"631": {
 			"cost": {
 				"wood": 0,
-				"food": 1200,
-				"gold": 900,
+				"food": 1100,
+				"gold": 700,
 				"stone": 0
 			},
 			"help_converter": 28299,
@@ -47879,7 +47879,7 @@
 			"cost": {
 				"wood": 300,
 				"food": 0,
-				"gold": 450,
+				"gold": 300,
 				"stone": 0
 			},
 			"help_converter": 28300,
@@ -50914,7 +50914,7 @@
 			"help_converter": 28338,
 			"language_file_name": 0,
 			"language_file_help": 107338,
-			"name": "C-Bonus, Navy attack and armor",
+			"name": "C-Bonus, Navy armor",
 			"localised_name": ""
 		},
 		"889": {
