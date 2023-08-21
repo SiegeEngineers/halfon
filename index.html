@@ -66,6 +66,10 @@
         .stone.active {
             color: #444;
         }
+
+        .tag.is-copyable {
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -302,6 +306,12 @@
 
     const getid = (unit) => `${unit.base_id}${unit.name}${unit.localised_name}${unit.hit_points}${unit.line_of_sight}${unit.attack}${unit.melee_armor}${unit.pierce_armor}${unit.garrison_capacity}${unit.cost.wood}${unit.cost.food}${unit.cost.gold}${unit.cost.stone}${toType(unit.type)}${toClass(unit.class)}`.replace(/ /g, '_').toLowerCase();
     const gettechid = (id, unit) => `${id}${unit.name}${unit.localised_name}${unit.cost.wood}${unit.cost.food}${unit.cost.gold}${unit.cost.stone}`.replace(/ /g, '_').toLowerCase();
+    const copyToClipboard = (str) => {
+        if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
+            return navigator.clipboard.writeText(str);
+        }
+        return Promise.reject('The Clipboard API is not available.');
+    };
     const init = (filename) => {
         fetch(filename)
             .then(response => response.json())
@@ -316,9 +326,13 @@
                     const goldClass = unit.cost.gold > 0 ? ' active' : '';
                     const stoneClass = unit.cost.stone > 0 ? ' active' : '';
                     const node = document.createElement('tr');
+                    const rms_tag = unit.rms_const ? `<span class="tag is-light is-copyable">${unit.rms_const}</span>` : '';
                     node.id = getid(unit);
                     node.innerHTML = `<td>${unit.base_id}</td>
-                    <td class="is-family-code"><strong>${unit.name}</strong></td>
+                    <td class="is-family-code">
+                        <strong>${unit.name}</strong>
+                        ${rms_tag}
+                    </td>
                     <td>${unit.localised_name}</td>
                     <td>${unit.hit_points}</td>
                     <td>${unit.line_of_sight}</td>
@@ -334,6 +348,17 @@
                     <td>${toClass(unit.class)}</td>`;
                     units_buildings_content.appendChild(node);
                 }
+                document.querySelectorAll('.tag.is-copyable').forEach((tag => {
+                    tag.onclick = (e) => {
+                        const text = e.target.innerText;
+                        copyToClipboard(text).then(() => {
+                            e.target.innerText = 'copied!';
+                            setTimeout(() => {
+                                e.target.innerText = text;
+                            }, 1000);
+                        });
+                    }
+                }))
                 const techs_content = document.getElementById('techs');
                 techs_content.innerHTML = '';
                 for (let id in json.techs) {
