@@ -163,7 +163,7 @@
 			},
 			"attack": 2,
 			"melee_armor": 0,
-			"pierce_armor": 2,
+			"pierce_armor": 3,
 			"base_id": 7,
 			"help_converter": 26690,
 			"language_file_name": 305350,
@@ -6169,7 +6169,7 @@
 			},
 			"attack": 50,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 3,
 			"base_id": 280,
 			"help_converter": 26095,
 			"language_file_name": 305174,
@@ -11933,7 +11933,7 @@
 			},
 			"attack": 60,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 4,
 			"base_id": 550,
 			"help_converter": 26448,
 			"language_file_name": 305175,
@@ -12769,7 +12769,7 @@
 			},
 			"attack": 60,
 			"melee_armor": 0,
-			"pierce_armor": 0,
+			"pierce_armor": 5,
 			"base_id": 588,
 			"help_converter": 26493,
 			"language_file_name": 305338,
@@ -41291,7 +41291,7 @@
 		"128": {
 			"cost": {
 				"wood": 0,
-				"food": 200,
+				"food": 100,
 				"gold": 0,
 				"stone": 0
 			},
@@ -41350,7 +41350,7 @@
 			"help_converter": -79001,
 			"language_file_name": 0,
 			"language_file_help": -1,
-			"name": "CB-Hittite",
+			"name": "CB-Warship range (Tool)",
 			"localised_name": ""
 		},
 		"133": {
@@ -41576,10 +41576,10 @@
 		},
 		"150": {
 			"cost": {
-				"wood": 350,
+				"wood": 300,
 				"food": 0,
 				"gold": 0,
-				"stone": 150
+				"stone": 100
 			},
 			"help_converter": 28099,
 			"language_file_name": 7099,
@@ -41831,7 +41831,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Archers fire faster (Tool)",
 			"localised_name": ""
 		},
 		"170": {
@@ -41844,7 +41844,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Archers fire faster (Bronze)",
 			"localised_name": ""
 		},
 		"171": {
@@ -41857,7 +41857,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Archers fire faster (Iron)",
 			"localised_name": ""
 		},
 		"172": {
@@ -41870,7 +41870,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Bowman range (Bronze)",
 			"localised_name": ""
 		},
 		"173": {
@@ -41883,7 +41883,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Bowman range (Iron)",
 			"localised_name": ""
 		},
 		"174": {
@@ -41893,10 +41893,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "",
+			"help_converter": -79001,
+			"language_file_name": 0,
+			"language_file_help": -1,
+			"name": "CB-Warship range (Bronze)",
 			"localised_name": ""
 		},
 		"175": {
@@ -41906,10 +41906,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
-			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "",
+			"help_converter": -79001,
+			"language_file_name": 0,
+			"language_file_help": -1,
+			"name": "CB-Warship range (Iron)",
 			"localised_name": ""
 		},
 		"176": {
