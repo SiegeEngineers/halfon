@@ -6168,7 +6168,7 @@
 				"stone": 0
 			},
 			"attack": 50,
-			"melee_armor": 0,
+			"melee_armor": -2,
 			"pierce_armor": 3,
 			"base_id": 280,
 			"help_converter": 26095,
@@ -9705,7 +9705,7 @@
 		"448": {
 			"cost": {
 				"wood": 0,
-				"food": 100,
+				"food": 90,
 				"gold": 0,
 				"stone": 0
 			},
@@ -11932,7 +11932,7 @@
 				"stone": 0
 			},
 			"attack": 60,
-			"melee_armor": 0,
+			"melee_armor": -2,
 			"pierce_armor": 4,
 			"base_id": 550,
 			"help_converter": 26448,
@@ -12768,7 +12768,7 @@
 				"stone": 0
 			},
 			"attack": 60,
-			"melee_armor": 0,
+			"melee_armor": -2,
 			"pierce_armor": 5,
 			"base_id": 588,
 			"help_converter": 26493,
@@ -43110,7 +43110,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Monk range (Bronze)",
 			"localised_name": ""
 		},
 		"177": {
@@ -43123,7 +43123,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Monk range (Iron)",
 			"localised_name": ""
 		},
 		"178": {
@@ -43136,7 +43136,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Ship cost (Tool)",
 			"localised_name": ""
 		},
 		"179": {
@@ -43149,10 +43149,140 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "",
+			"name": "CB-Ship cost (Bronze)",
 			"localised_name": ""
 		},
 		"180": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "CB-Ship cost (Iron)",
+			"localised_name": ""
+		},
+		"181": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "CB-Ship HP (Tool)",
+			"localised_name": ""
+		},
+		"182": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "CB-Ship HP (Bronze)",
+			"localised_name": ""
+		},
+		"183": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "CB-Ship HP (Iron)",
+			"localised_name": ""
+		},
+		"184": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "",
+			"localised_name": ""
+		},
+		"185": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "",
+			"localised_name": ""
+		},
+		"186": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "",
+			"localised_name": ""
+		},
+		"187": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "",
+			"localised_name": ""
+		},
+		"188": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "",
+			"localised_name": ""
+		},
+		"189": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "",
+			"localised_name": ""
+		},
+		"190": {
 			"cost": {
 				"wood": 0,
 				"food": 0,

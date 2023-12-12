@@ -1299,9 +1299,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 56,
-			"help_converter": 26499,
+			"help_converter": 26121,
 			"language_file_name": 5499,
-			"language_file_help": 105499,
+			"language_file_help": 105121,
 			"name": "VMFIS",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -1322,9 +1322,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 57,
-			"help_converter": 26499,
+			"help_converter": 26121,
 			"language_file_name": 5499,
-			"language_file_help": 105499,
+			"language_file_help": 105121,
 			"name": "VFFIS",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -2725,9 +2725,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 118,
-			"help_converter": 26122,
+			"help_converter": 26121,
 			"language_file_name": 5122,
-			"language_file_help": 105122,
+			"language_file_help": 105121,
 			"name": "VMBLD",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -2771,9 +2771,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 120,
-			"help_converter": 26402,
+			"help_converter": 26121,
 			"language_file_name": 5402,
-			"language_file_help": 105402,
+			"language_file_help": 105121,
 			"name": "VMFOR",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -2817,9 +2817,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 122,
-			"help_converter": 26124,
+			"help_converter": 26121,
 			"language_file_name": 5124,
-			"language_file_help": 105124,
+			"language_file_help": 105121,
 			"name": "VMHUN",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -2840,9 +2840,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 123,
-			"help_converter": 26125,
+			"help_converter": 26121,
 			"language_file_name": 5125,
-			"language_file_help": 105125,
+			"language_file_help": 105121,
 			"name": "VMLUM",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -2863,9 +2863,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 124,
-			"help_converter": 26126,
+			"help_converter": 26121,
 			"language_file_name": 5126,
-			"language_file_help": 105126,
+			"language_file_help": 105121,
 			"name": "VMMIN",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -3599,9 +3599,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 156,
-			"help_converter": 26127,
+			"help_converter": 26121,
 			"language_file_name": 5127,
-			"language_file_help": 105127,
+			"language_file_help": 105121,
 			"name": "VMREP",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -4887,9 +4887,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 212,
-			"help_converter": 26122,
+			"help_converter": 26121,
 			"language_file_name": 5122,
-			"language_file_help": 105122,
+			"language_file_help": 105121,
 			"name": "VFBLD",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -4933,9 +4933,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 214,
-			"help_converter": 26123,
+			"help_converter": 26121,
 			"language_file_name": 5123,
-			"language_file_help": 105123,
+			"language_file_help": 105121,
 			"name": "VFFAR",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -4979,9 +4979,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 216,
-			"help_converter": 26124,
+			"help_converter": 26121,
 			"language_file_name": 5124,
-			"language_file_help": 105124,
+			"language_file_help": 105121,
 			"name": "VFHUN",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -5025,9 +5025,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 218,
-			"help_converter": 26125,
+			"help_converter": 26121,
 			"language_file_name": 5125,
-			"language_file_help": 105125,
+			"language_file_help": 105121,
 			"name": "VFLUM",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -5071,9 +5071,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 220,
-			"help_converter": 26126,
+			"help_converter": 26121,
 			"language_file_name": 5126,
-			"language_file_help": 105126,
+			"language_file_help": 105121,
 			"name": "VFMIN",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -5117,9 +5117,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 222,
-			"help_converter": 26127,
+			"help_converter": 26121,
 			"language_file_name": 5127,
-			"language_file_help": 105127,
+			"language_file_help": 105121,
 			"name": "VFREP",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -5968,9 +5968,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 259,
-			"help_converter": 26123,
+			"help_converter": 26121,
 			"language_file_name": 5123,
-			"language_file_help": 105123,
+			"language_file_help": 105121,
 			"name": "VMFAR",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -6563,7 +6563,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": 10000,
 			"pierce_armor": 0,
 			"base_id": 285,
 			"help_converter": 26350,
@@ -8153,9 +8153,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 354,
-			"help_converter": 26402,
+			"help_converter": 26121,
 			"language_file_name": 5402,
-			"language_file_help": 105402,
+			"language_file_help": 105121,
 			"name": "VFFOR",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -11025,7 +11025,7 @@
 				"stone": 30
 			},
 			"attack": 0,
-			"melee_armor": 6,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 487,
 			"help_converter": 26185,
@@ -11048,7 +11048,7 @@
 				"stone": 30
 			},
 			"attack": 0,
-			"melee_armor": 6,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 488,
 			"help_converter": 26185,
@@ -11094,7 +11094,7 @@
 				"stone": 30
 			},
 			"attack": 0,
-			"melee_armor": 6,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 490,
 			"help_converter": 26185,
@@ -11117,7 +11117,7 @@
 				"stone": 30
 			},
 			"attack": 0,
-			"melee_armor": 6,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 491,
 			"help_converter": 26185,
@@ -13144,9 +13144,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 579,
-			"help_converter": 26482,
+			"help_converter": 26121,
 			"language_file_name": 5482,
-			"language_file_help": 105482,
+			"language_file_help": 105121,
 			"name": "VMGLD",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -13190,9 +13190,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 581,
-			"help_converter": 26482,
+			"help_converter": 26121,
 			"language_file_name": 5482,
-			"language_file_help": 105482,
+			"language_file_help": 105121,
 			"name": "VFGLD",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -13397,9 +13397,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 590,
-			"help_converter": 26496,
+			"help_converter": 26121,
 			"language_file_name": 5496,
-			"language_file_help": 105496,
+			"language_file_help": 105121,
 			"name": "VFSHE",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -13443,9 +13443,9 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 592,
-			"help_converter": 26496,
+			"help_converter": 26121,
 			"language_file_name": 5496,
-			"language_file_help": 105496,
+			"language_file_help": 105121,
 			"name": "VMSHE",
 			"hit_points": 25,
 			"line_of_sight": 4,
@@ -15119,7 +15119,7 @@
 				"stone": 30
 			},
 			"attack": 0,
-			"melee_armor": 6,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 665,
 			"help_converter": 26185,
@@ -15142,7 +15142,7 @@
 				"stone": 30
 			},
 			"attack": 0,
-			"melee_armor": 6,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 666,
 			"help_converter": 26185,
@@ -15303,7 +15303,7 @@
 				"stone": 30
 			},
 			"attack": 0,
-			"melee_armor": 6,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 673,
 			"help_converter": 26185,
@@ -15326,7 +15326,7 @@
 				"stone": 30
 			},
 			"attack": 0,
-			"melee_armor": 6,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 674,
 			"help_converter": 26185,
@@ -17971,7 +17971,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 792,
 			"help_converter": 26708,
@@ -18063,7 +18063,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 796,
 			"help_converter": 26708,
@@ -18155,7 +18155,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 800,
 			"help_converter": 26708,
@@ -18247,7 +18247,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 804,
 			"help_converter": 26708,
@@ -19967,7 +19967,7 @@
 		"879": {
 			"cost": {
 				"wood": 0,
-				"food": 65,
+				"food": 60,
 				"gold": 30,
 				"stone": 0
 			},
@@ -20013,7 +20013,7 @@
 		"881": {
 			"cost": {
 				"wood": 0,
-				"food": 65,
+				"food": 60,
 				"gold": 30,
 				"stone": 0
 			},
@@ -21444,7 +21444,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": 10000,
 			"pierce_armor": 0,
 			"base_id": 944,
 			"help_converter": 26082,
@@ -22754,7 +22754,7 @@
 				"gold": 70,
 				"stone": 0
 			},
-			"attack": 7,
+			"attack": 6,
 			"melee_armor": 2,
 			"pierce_armor": 4,
 			"base_id": 1001,
@@ -22800,7 +22800,7 @@
 				"gold": 70,
 				"stone": 0
 			},
-			"attack": 9,
+			"attack": 8,
 			"melee_armor": 2,
 			"pierce_armor": 6,
 			"base_id": 1003,
@@ -29724,7 +29724,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": 10000,
 			"pierce_armor": 0,
 			"base_id": 1304,
 			"help_converter": 26082,
@@ -31518,7 +31518,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1382,
 			"help_converter": 26708,
@@ -31610,7 +31610,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1386,
 			"help_converter": 26708,
@@ -31702,7 +31702,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1390,
 			"help_converter": 26708,
@@ -31794,7 +31794,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 2,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1394,
 			"help_converter": 26708,
@@ -36118,7 +36118,7 @@
 				"stone": 40
 			},
 			"attack": 0,
-			"melee_armor": 10,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1582,
 			"help_converter": 26044,
@@ -36210,7 +36210,7 @@
 				"stone": 40
 			},
 			"attack": 0,
-			"melee_armor": 10,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1586,
 			"help_converter": 26044,
@@ -36302,7 +36302,7 @@
 				"stone": 40
 			},
 			"attack": 0,
-			"melee_armor": 10,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1590,
 			"help_converter": 26044,
@@ -36394,7 +36394,7 @@
 				"stone": 40
 			},
 			"attack": 0,
-			"melee_armor": 10,
+			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1594,
 			"help_converter": 26044,
@@ -37458,7 +37458,7 @@
 			"help_converter": 26000,
 			"language_file_name": 0,
 			"language_file_help": 105000,
-			"name": "Empty building",
+			"name": "Disable Horse building",
 			"hit_points": -1,
 			"line_of_sight": 0,
 			"garrison_capacity": 0,
@@ -38923,7 +38923,7 @@
 				"gold": 70,
 				"stone": 0
 			},
-			"attack": 11,
+			"attack": 10,
 			"melee_armor": 0,
 			"pierce_armor": 7,
 			"base_id": 1704,
@@ -38931,7 +38931,7 @@
 			"language_file_name": 5561,
 			"language_file_help": 105561,
 			"name": "HUSSITEWAGON",
-			"hit_points": 180,
+			"hit_points": 160,
 			"line_of_sight": 8,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -39079,7 +39079,7 @@
 		},
 		"1711": {
 			"cost": {
-				"wood": 125,
+				"wood": 100,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
@@ -39286,7 +39286,7 @@
 		},
 		"1720": {
 			"cost": {
-				"wood": 125,
+				"wood": 100,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
@@ -39608,7 +39608,7 @@
 		},
 		"1734": {
 			"cost": {
-				"wood": 125,
+				"wood": 100,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
@@ -41016,7 +41016,7 @@
 				"gold": 150,
 				"stone": 0
 			},
-			"attack": 50,
+			"attack": 8,
 			"melee_armor": 1,
 			"pierce_armor": 6,
 			"base_id": 1795,
@@ -41310,7 +41310,7 @@
 		},
 		"1808": {
 			"cost": {
-				"wood": 100,
+				"wood": 80,
 				"food": 20,
 				"gold": 0,
 				"stone": 0
@@ -42714,7 +42714,7 @@
 		"1869": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
+				"food": 50,
 				"gold": 0,
 				"stone": 0
 			},
@@ -42722,16 +42722,16 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1869,
-			"help_converter": 26000,
-			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26714,
+			"language_file_name": 21135,
+			"language_file_help": 105714,
+			"name": "HORSE",
+			"hit_points": 50,
+			"line_of_sight": 4,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "",
+			"type": 70,
+			"class": 61,
+			"localised_name": "Hunnic Horse",
 			"rms_const": null
 		},
 		"1870": {
@@ -44037,8 +44037,8 @@
 		"45": {
 			"cost": {
 				"wood": 0,
-				"food": 750,
-				"gold": 1000,
+				"food": 550,
+				"gold": 750,
 				"stone": 0
 			},
 			"help_converter": 28045,
@@ -44050,15 +44050,15 @@
 		"46": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
-				"gold": 0,
+				"food": 100,
+				"gold": 150,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
-			"localised_name": ""
+			"help_converter": 28462,
+			"language_file_name": 7462,
+			"language_file_help": 107462,
+			"name": "Devotion",
+			"localised_name": "Devotion"
 		},
 		"47": {
 			"cost": {
@@ -44314,10 +44314,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "C-Bonus, +5 monk HP",
 			"localised_name": ""
 		},
 		"67": {
@@ -45435,7 +45435,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Military cost -15%",
+			"name": "C-Bonus, Military cost -10%",
 			"localised_name": ""
 		},
 		"153": {
@@ -45448,7 +45448,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Military cost -20%",
+			"name": "C-Bonus, Military cost -15%",
 			"localised_name": ""
 		},
 		"154": {
@@ -45461,7 +45461,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Military cost -25%",
+			"name": "C-Bonus, Military cost -20%",
 			"localised_name": ""
 		},
 		"155": {
@@ -45474,7 +45474,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Military cost -30%",
+			"name": "C-Bonus, Military cost -25%",
 			"localised_name": ""
 		},
 		"156": {
@@ -46550,10 +46550,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28312,
+			"language_file_name": 7000,
+			"language_file_help": 107312,
+			"name": "C-Bonus, Start w/ Horse",
 			"localised_name": ""
 		},
 		"239": {
@@ -46589,10 +46589,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28312,
+			"language_file_name": 7000,
+			"language_file_help": 107312,
+			"name": "C-Bonus, Disable Horse",
 			"localised_name": ""
 		},
 		"242": {
@@ -46602,10 +46602,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28240,
+			"help_converter": 28312,
 			"language_file_name": 7000,
-			"language_file_help": 107240,
-			"name": "Make Demolition ship available",
+			"language_file_help": 107312,
+			"name": "C-Bonus, Disable Horse2",
 			"localised_name": ""
 		},
 		"243": {
@@ -49907,7 +49907,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Villager cost -5%",
+			"name": "C-Bonus, Villager cost Age1",
 			"localised_name": ""
 		},
 		"497": {
@@ -49920,7 +49920,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Villager cost -10%",
+			"name": "C-Bonus, Villager cost Age2",
 			"localised_name": ""
 		},
 		"498": {
@@ -49933,7 +49933,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Villager cost -15%",
+			"name": "C-Bonus, Villager cost Age3",
 			"localised_name": ""
 		},
 		"499": {
@@ -50648,7 +50648,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Villager cost -20%",
+			"name": "C-Bonus, Villager cost Age4",
 			"localised_name": ""
 		},
 		"554": {
@@ -55926,7 +55926,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Galley +1 projectile",
+			"name": "C-Bonus, Navy +1 projectile",
 			"localised_name": ""
 		},
 		"960": {
