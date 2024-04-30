@@ -1819,7 +1819,7 @@
 		},
 		"79": {
 			"cost": {
-				"wood": 50,
+				"wood": 35,
 				"food": 0,
 				"gold": 0,
 				"stone": 125
@@ -5384,7 +5384,7 @@
 		},
 		"234": {
 			"cost": {
-				"wood": 50,
+				"wood": 35,
 				"food": 0,
 				"gold": 0,
 				"stone": 125
@@ -5407,7 +5407,7 @@
 		},
 		"235": {
 			"cost": {
-				"wood": 50,
+				"wood": 35,
 				"food": 0,
 				"gold": 0,
 				"stone": 125
@@ -12290,14 +12290,14 @@
 				"stone": 0
 			},
 			"attack": 16,
-			"melee_armor": 0,
+			"melee_armor": 1,
 			"pierce_armor": 8,
 			"base_id": 542,
 			"help_converter": 26439,
 			"language_file_name": 5439,
 			"language_file_help": 105439,
 			"name": "HWBAL",
-			"hit_points": 55,
+			"hit_points": 60,
 			"line_of_sight": 9,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -25763,7 +25763,7 @@
 		"1132": {
 			"cost": {
 				"wood": 0,
-				"food": 110,
+				"food": 100,
 				"gold": 70,
 				"stone": 0
 			},
@@ -25809,7 +25809,7 @@
 		"1134": {
 			"cost": {
 				"wood": 0,
-				"food": 110,
+				"food": 100,
 				"gold": 70,
 				"stone": 0
 			},
@@ -38021,7 +38021,7 @@
 		},
 		"1665": {
 			"cost": {
-				"wood": 75,
+				"wood": 50,
 				"food": 0,
 				"gold": 0,
 				"stone": 175
@@ -39706,8 +39706,8 @@
 				"stone": 0
 			},
 			"attack": 10,
-			"melee_armor": 2,
-			"pierce_armor": 1,
+			"melee_armor": 3,
+			"pierce_armor": 2,
 			"base_id": 1738,
 			"help_converter": 26414,
 			"language_file_name": 21096,
@@ -39752,8 +39752,8 @@
 				"stone": 0
 			},
 			"attack": 12,
-			"melee_armor": 2,
-			"pierce_armor": 1,
+			"melee_armor": 3,
+			"pierce_armor": 3,
 			"base_id": 1740,
 			"help_converter": 26420,
 			"language_file_name": 21097,
@@ -40189,8 +40189,8 @@
 				"stone": 0
 			},
 			"attack": 5,
-			"melee_armor": 2,
-			"pierce_armor": 1,
+			"melee_armor": 3,
+			"pierce_armor": 2,
 			"base_id": 1759,
 			"help_converter": 26414,
 			"language_file_name": 21104,
@@ -40235,8 +40235,8 @@
 				"stone": 0
 			},
 			"attack": 6,
-			"melee_armor": 2,
-			"pierce_armor": 1,
+			"melee_armor": 3,
+			"pierce_armor": 3,
 			"base_id": 1761,
 			"help_converter": 26420,
 			"language_file_name": 21105,
@@ -44051,7 +44051,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 100,
-				"gold": 150,
+				"gold": 200,
 				"stone": 0
 			},
 			"help_converter": 28462,
@@ -46558,7 +46558,7 @@
 		},
 		"239": {
 			"cost": {
-				"wood": 900,
+				"wood": 750,
 				"food": 800,
 				"gold": 0,
 				"stone": 0
@@ -47174,10 +47174,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28305,
-			"language_file_name": 7000,
-			"language_file_help": 107305,
-			"name": "C-Bonus, Unit Cost 2",
+			"help_converter": 28367,
+			"language_file_name": 7367,
+			"language_file_help": 107367,
+			"name": "C-Bonus, Light Cavalry +20% HP + BL",
 			"localised_name": ""
 		},
 		"287": {
@@ -47187,10 +47187,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28367,
+			"language_file_name": 7367,
+			"language_file_help": 107367,
+			"name": "C-Bonus, Light Cavalry +30% HP + BL",
 			"localised_name": ""
 		},
 		"288": {
@@ -47200,10 +47200,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28367,
+			"language_file_name": 7367,
+			"language_file_help": 107367,
+			"name": "C-Bonus, Light Cavalry +20% HP",
 			"localised_name": ""
 		},
 		"289": {
@@ -47213,10 +47213,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "[EW] Remove hun houses",
 			"localised_name": ""
 		},
 		"290": {
@@ -48503,7 +48503,7 @@
 			"help_converter": 28367,
 			"language_file_name": 7367,
 			"language_file_help": 107367,
-			"name": "C-Bonus, Cavalry +30% HP",
+			"name": "C-Bonus, Light Cavalry +30% HP",
 			"localised_name": ""
 		},
 		"389": {
@@ -51896,7 +51896,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, monastery techs -50% c",
+			"name": "C-Bonus, monastery techs -50% cost",
 			"localised_name": ""
 		},
 		"650": {
@@ -52065,7 +52065,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Battle Ele 30% cheaper",
+			"name": "C-Bonus, Battle Ele 25% cheaper",
 			"localised_name": ""
 		},
 		"663": {
@@ -52078,7 +52078,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Battle Ele 40% cheaper",
+			"name": "C-Bonus, Battle Ele 35% cheaper",
 			"localised_name": ""
 		},
 		"664": {
@@ -54268,8 +54268,8 @@
 		"832": {
 			"cost": {
 				"wood": 0,
-				"food": 750,
-				"gold": 600,
+				"food": 650,
+				"gold": 550,
 				"stone": 0
 			},
 			"help_converter": 28358,
@@ -55640,7 +55640,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Cavalry regeneration",
+			"name": "C-Bonus, Cavalry regeneration age2",
 			"localised_name": ""
 		},
 		"938": {
@@ -55653,7 +55653,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Cavalry regeneration + Bloodlines",
+			"name": "C-Bonus, Cavalry regeneration age3",
 			"localised_name": ""
 		},
 		"939": {
@@ -55666,7 +55666,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Cavalry regeneration age4",
 			"localised_name": ""
 		},
 		"940": {
