@@ -42948,7 +42948,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 5,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1879,
@@ -44006,7 +44006,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 3,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1925,
@@ -44144,7 +44144,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 12,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1931,
@@ -44259,7 +44259,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 1,
+			"attack": 5,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1936,
@@ -44282,7 +44282,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 1,
+			"attack": 5,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1937,
@@ -44305,7 +44305,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 25,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1938,
@@ -44328,7 +44328,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 25,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1939,
@@ -45064,7 +45064,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 4,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1971,
@@ -45271,7 +45271,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 1,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1982,
