@@ -43451,10 +43451,10 @@
 			"cost": {
 				"wood": 40,
 				"food": 0,
-				"gold": 50,
+				"gold": 45,
 				"stone": 0
 			},
-			"attack": 8,
+			"attack": 9,
 			"melee_armor": 1,
 			"pierce_armor": 0,
 			"base_id": 1901,
@@ -43497,7 +43497,7 @@
 			"cost": {
 				"wood": 40,
 				"food": 0,
-				"gold": 50,
+				"gold": 45,
 				"stone": 0
 			},
 			"attack": 10,
@@ -43681,10 +43681,10 @@
 			"cost": {
 				"wood": 0,
 				"food": 35,
-				"gold": 70,
+				"gold": 65,
 				"stone": 0
 			},
-			"attack": 11,
+			"attack": 12,
 			"melee_armor": 1,
 			"pierce_armor": 1,
 			"base_id": 1911,
@@ -43692,7 +43692,7 @@
 			"language_file_name": 5596,
 			"language_file_help": 105596,
 			"name": "GRNADR",
-			"hit_points": 35,
+			"hit_points": 40,
 			"line_of_sight": 7,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -44627,7 +44627,7 @@
 				"gold": 25,
 				"stone": 0
 			},
-			"attack": 4,
+			"attack": 5,
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1952,
@@ -45271,7 +45271,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 1,
+			"attack": 5,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1982,
@@ -45294,19 +45294,19 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
-			"melee_armor": 0,
+			"attack": 1,
+			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1983,
-			"help_converter": 26000,
+			"help_converter": 26067,
 			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
+			"language_file_help": 105067,
+			"name": "Projectile Xianbei (Secondary)",
 			"hit_points": 1,
-			"line_of_sight": 2,
+			"line_of_sight": -1,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
+			"type": 60,
+			"class": 11,
 			"localised_name": "",
 			"rms_const": null
 		},
@@ -66249,7 +66249,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 950,
-				"gold": 750,
+				"gold": 550,
 				"stone": 0
 			},
 			"help_converter": 28464,
@@ -66411,7 +66411,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, +10% herders",
+			"name": "RESERVED",
 			"localised_name": ""
 		},
 		"1004": {
@@ -67157,9 +67157,9 @@
 		},
 		"1061": {
 			"cost": {
-				"wood": 0,
+				"wood": 300,
 				"food": 250,
-				"gold": 300,
+				"gold": 0,
 				"stone": 0
 			},
 			"help_converter": 28473,
