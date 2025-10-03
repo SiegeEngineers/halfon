@@ -1458,7 +1458,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 63,
 			"help_converter": 26185,
 			"language_file_name": 21029,
@@ -1550,7 +1550,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 67,
 			"help_converter": 26185,
 			"language_file_name": 5649,
@@ -1849,7 +1849,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 80,
 			"help_converter": 26185,
 			"language_file_name": 5649,
@@ -1964,7 +1964,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 85,
 			"help_converter": 26185,
 			"language_file_name": 21030,
@@ -2054,7 +2054,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 4,
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 89,
@@ -2062,8 +2062,8 @@
 			"language_file_name": 5553,
 			"language_file_help": 105553,
 			"name": "DWOLF",
-			"hit_points": 100,
-			"line_of_sight": 3,
+			"hit_points": 50,
+			"line_of_sight": 12,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 10,
@@ -2079,7 +2079,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 90,
 			"help_converter": 26185,
 			"language_file_name": 5649,
@@ -2125,7 +2125,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 92,
 			"help_converter": 26185,
 			"language_file_name": 5649,
@@ -2873,7 +2873,7 @@
 			"type": 70,
 			"class": 4,
 			"localised_name": "Stone Miner",
-			"rms_const": "VILLAGER_STONE_M"
+			"rms_const": "SNOW_SOFT"
 		},
 		"125": {
 			"cost": {
@@ -2918,7 +2918,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 10,
-			"localised_name": "Wolf",
+			"localised_name": "Grey Wolf",
 			"rms_const": "WOLF"
 		},
 		"127": {
@@ -2942,7 +2942,7 @@
 			"type": 70,
 			"class": 11,
 			"localised_name": "",
-			"rms_const": null
+			"rms_const": "ICE_SOFT"
 		},
 		"128": {
 			"cost": {
@@ -3654,7 +3654,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 10,
-			"localised_name": "",
+			"localised_name": "Outlaw",
 			"rms_const": null
 		},
 		"159": {
@@ -3665,7 +3665,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": 10000,
 			"pierce_armor": 0,
 			"base_id": 159,
 			"help_converter": 26082,
@@ -4653,7 +4653,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 5,
+			"attack": 3,
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 202,
@@ -4661,8 +4661,8 @@
 			"language_file_name": 5652,
 			"language_file_help": 105652,
 			"name": "WOLF2",
-			"hit_points": 30,
-			"line_of_sight": 6,
+			"hit_points": 20,
+			"line_of_sight": 12,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 10,
@@ -6279,29 +6279,6 @@
 			"localised_name": "",
 			"rms_const": null
 		},
-		"-1": {
-			"cost": {
-				"wood": 0,
-				"food": 0,
-				"gold": 0,
-				"stone": 0
-			},
-			"attack": 0,
-			"melee_armor": 0,
-			"pierce_armor": 0,
-			"base_id": -1,
-			"help_converter": 26000,
-			"language_file_name": 5000,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
-			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "Test String",
-			"rms_const": null
-		},
 		"274": {
 			"cost": {
 				"wood": 0,
@@ -6563,7 +6540,7 @@
 				"stone": 0
 			},
 			"attack": 0,
-			"melee_armor": 0,
+			"melee_armor": 10000,
 			"pierce_armor": 0,
 			"base_id": 285,
 			"help_converter": 26350,
@@ -7026,16 +7003,16 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 305,
-			"help_converter": 26498,
-			"language_file_name": 5503,
-			"language_file_help": 105498,
-			"name": "LLAMAG",
+			"help_converter": 26503,
+			"language_file_name": 21273,
+			"language_file_help": 105503,
+			"name": "LLAMAA",
 			"hit_points": 7,
 			"line_of_sight": 3,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 58,
-			"localised_name": "Llama",
+			"localised_name": "Llama A",
 			"rms_const": "DLC_LLAMA"
 		},
 		"306": {
@@ -7702,7 +7679,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Flowers 1",
 			"rms_const": null
 		},
 		"335": {
@@ -7725,7 +7702,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Flowers 2",
 			"rms_const": null
 		},
 		"336": {
@@ -7748,7 +7725,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Flowers 3",
 			"rms_const": null
 		},
 		"337": {
@@ -7771,7 +7748,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Flowers 4",
 			"rms_const": null
 		},
 		"338": {
@@ -9553,7 +9530,7 @@
 				"stone": 0
 			},
 			"attack": 3,
-			"melee_armor": -3,
+			"melee_armor": -2,
 			"pierce_armor": 190,
 			"base_id": 422,
 			"help_converter": 26289,
@@ -11008,13 +10985,13 @@
 			"help_converter": 26712,
 			"language_file_name": 5713,
 			"language_file_help": 105712,
-			"name": "BEAR",
-			"hit_points": 25,
+			"name": "BROWNBEAR",
+			"hit_points": 30,
 			"line_of_sight": 10,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 10,
-			"localised_name": "Bear",
+			"localised_name": "Brown Bear",
 			"rms_const": "DLC_BEAR"
 		},
 		"487": {
@@ -12428,7 +12405,7 @@
 				"stone": 0
 			},
 			"attack": 4,
-			"melee_armor": -3,
+			"melee_armor": -1,
 			"pierce_armor": 195,
 			"base_id": 548,
 			"help_converter": 26446,
@@ -12619,7 +12596,7 @@
 			"language_file_name": 5453,
 			"language_file_help": 105453,
 			"name": "UDERV",
-			"hit_points": 90,
+			"hit_points": 80,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -14533,7 +14510,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Penguin",
+			"localised_name": "War Penguin",
 			"rms_const": "DLC_PENGUIN"
 		},
 		"640": {
@@ -15005,7 +14982,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 660,
 			"help_converter": 26185,
 			"language_file_name": 21031,
@@ -15051,7 +15028,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 662,
 			"help_converter": 26185,
 			"language_file_name": 5649,
@@ -15097,7 +15074,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 664,
 			"help_converter": 26185,
 			"language_file_name": 5649,
@@ -15189,7 +15166,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 668,
 			"help_converter": 26185,
 			"language_file_name": 21032,
@@ -15235,7 +15212,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 670,
 			"help_converter": 26185,
 			"language_file_name": 5649,
@@ -15281,7 +15258,7 @@
 			},
 			"attack": 0,
 			"melee_armor": 6,
-			"pierce_armor": 6,
+			"pierce_armor": 7,
 			"base_id": 672,
 			"help_converter": 26185,
 			"language_file_name": 5649,
@@ -17247,7 +17224,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "Burned building",
+			"localised_name": "Burned Building A",
 			"rms_const": null
 		},
 		"759": {
@@ -17483,8 +17460,8 @@
 		"771": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
-				"gold": 70,
+				"food": 70,
+				"gold": 60,
 				"stone": 0
 			},
 			"attack": 16,
@@ -17529,8 +17506,8 @@
 		"773": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
-				"gold": 70,
+				"food": 70,
+				"gold": 60,
 				"stone": 0
 			},
 			"attack": 18,
@@ -18867,7 +18844,7 @@
 				"gold": 180,
 				"stone": 0
 			},
-			"attack": 6,
+			"attack": 4,
 			"melee_armor": 6,
 			"pierce_armor": 7,
 			"base_id": 831,
@@ -18890,7 +18867,7 @@
 				"gold": 180,
 				"stone": 0
 			},
-			"attack": 8,
+			"attack": 4,
 			"melee_armor": 8,
 			"pierce_armor": 8,
 			"base_id": 832,
@@ -18972,7 +18949,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Wild Horse A",
 			"rms_const": "WILD_HORSE"
 		},
 		"836": {
@@ -19741,7 +19718,7 @@
 				"gold": 45,
 				"stone": 0
 			},
-			"attack": 9,
+			"attack": 10,
 			"melee_armor": 0,
 			"pierce_armor": 2,
 			"base_id": 869,
@@ -19749,7 +19726,7 @@
 			"language_file_name": 5728,
 			"language_file_help": 105728,
 			"name": "UMAGYX",
-			"hit_points": 75,
+			"hit_points": 80,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -19787,7 +19764,7 @@
 				"gold": 45,
 				"stone": 0
 			},
-			"attack": 10,
+			"attack": 11,
 			"melee_armor": 0,
 			"pierce_armor": 2,
 			"base_id": 871,
@@ -19795,7 +19772,7 @@
 			"language_file_name": 5730,
 			"language_file_help": 105730,
 			"name": "UMAGYX",
-			"hit_points": 85,
+			"hit_points": 90,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -22763,7 +22740,7 @@
 			"language_file_help": 105129,
 			"name": "ORGAN",
 			"hit_points": 50,
-			"line_of_sight": 9,
+			"line_of_sight": 8,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 13,
@@ -25141,9 +25118,9 @@
 		},
 		"1105": {
 			"cost": {
-				"wood": 200,
+				"wood": 100,
 				"food": 0,
-				"gold": 160,
+				"gold": 120,
 				"stone": 0
 			},
 			"attack": 0,
@@ -25545,7 +25522,7 @@
 			"language_file_name": 5147,
 			"language_file_help": 105147,
 			"name": "EELEBALI",
-			"hit_points": 290,
+			"hit_points": 280,
 			"line_of_sight": 7,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -35095,7 +35072,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Baobab Stump",
 			"rms_const": "BAOBAB_STUMP"
 		},
 		"1538": {
@@ -35118,7 +35095,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Lush Bamboo Stump",
 			"rms_const": "LUSH_BAMBOO_STUMP"
 		},
 		"1539": {
@@ -35141,7 +35118,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Felled Tree",
 			"rms_const": "FELLED_TREE"
 		},
 		"1540": {
@@ -35164,7 +35141,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Felled Tree (Bamboo)",
 			"rms_const": "FELLED_TREE_BAOBAB"
 		},
 		"1541": {
@@ -35187,7 +35164,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Felled Tree (Baobab)",
 			"rms_const": "FELLED_TREE_BAMBOO"
 		},
 		"1542": {
@@ -35210,7 +35187,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Felled Tree (Lush Bamboo)",
 			"rms_const": "FELLED_TREE_LUSH_BAMBOO"
 		},
 		"1543": {
@@ -35362,16 +35339,16 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1549,
-			"help_converter": 26000,
-			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26401,
+			"language_file_name": 5401,
+			"language_file_help": 105401,
+			"name": "FORAGGURJ",
+			"hit_points": 0,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
 			"type": 10,
-			"class": -1,
-			"localised_name": "",
+			"class": 7,
+			"localised_name": "Forage Bush",
 			"rms_const": null
 		},
 		"1550": {
@@ -35670,7 +35647,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "Paifang Gate",
+			"localised_name": "Torii Gate",
 			"rms_const": null
 		},
 		"1563": {
@@ -37326,7 +37303,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Baobab Stump",
 			"rms_const": null
 		},
 		"1635": {
@@ -37861,7 +37838,7 @@
 		"1658": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
+				"food": 55,
 				"gold": 25,
 				"stone": 0
 			},
@@ -37884,7 +37861,7 @@
 		"1659": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
+				"food": 55,
 				"gold": 25,
 				"stone": 0
 			},
@@ -37907,7 +37884,7 @@
 		"1660": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
+				"food": 55,
 				"gold": 25,
 				"stone": 0
 			},
@@ -37930,7 +37907,7 @@
 		"1661": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
+				"food": 55,
 				"gold": 25,
 				"stone": 0
 			},
@@ -38805,7 +38782,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 30,
-				"gold": 30,
+				"gold": 25,
 				"stone": 0
 			},
 			"attack": 5,
@@ -41844,7 +41821,7 @@
 				"gold": 60,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 11,
 			"melee_armor": 1,
 			"pierce_armor": 1,
 			"base_id": 1831,
@@ -42041,7 +42018,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--End A",
+			"localised_name": "Bridge Piece AB--End A",
 			"rms_const": null
 		},
 		"1840": {
@@ -42064,7 +42041,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--End B",
+			"localised_name": "Bridge Piece AB--End B",
 			"rms_const": null
 		},
 		"1841": {
@@ -42087,7 +42064,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--End C",
+			"localised_name": "Bridge Piece AB--End C",
 			"rms_const": null
 		},
 		"1842": {
@@ -42110,7 +42087,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--Middle",
+			"localised_name": "Bridge Piece AB--Middle",
 			"rms_const": null
 		},
 		"1843": {
@@ -42133,7 +42110,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--Broken A",
+			"localised_name": "Bridge Piece AB--Broken A",
 			"rms_const": null
 		},
 		"1844": {
@@ -42156,7 +42133,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--Broken B",
+			"localised_name": "Bridge Piece AB--Broken B",
 			"rms_const": null
 		},
 		"1845": {
@@ -42179,7 +42156,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--Broken C",
+			"localised_name": "Bridge Piece AB--Broken C",
 			"rms_const": null
 		},
 		"1846": {
@@ -42202,7 +42179,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--Cracked",
+			"localised_name": "Bridge Piece AB--Cracked",
 			"rms_const": null
 		},
 		"1847": {
@@ -42225,7 +42202,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "Bridge Piece--Rails",
+			"localised_name": "Bridge Piece AB--Rails",
 			"rms_const": null
 		},
 		"1848": {
@@ -42754,7 +42731,7 @@
 			"garrison_capacity": 5,
 			"type": 80,
 			"class": 3,
-			"localised_name": "",
+			"localised_name": "Chief's Yurt",
 			"rms_const": null
 		},
 		"1871": {
@@ -43099,7 +43076,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Broken Fence A",
 			"rms_const": null
 		},
 		"1886": {
@@ -43122,7 +43099,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Broken Fence B",
 			"rms_const": null
 		},
 		"1887": {
@@ -43191,7 +43168,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 49,
-			"localised_name": "",
+			"localised_name": "Pasture",
 			"rms_const": null
 		},
 		"1890": {
@@ -43237,7 +43214,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 4,
-			"localised_name": "",
+			"localised_name": "Herder",
 			"rms_const": null
 		},
 		"1892": {
@@ -43260,7 +43237,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 4,
-			"localised_name": "",
+			"localised_name": "Herder",
 			"rms_const": null
 		},
 		"1893": {
@@ -43270,7 +43247,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 5,
+			"attack": 0,
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1893,
@@ -43283,7 +43260,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 49,
-			"localised_name": "",
+			"localised_name": "Pasture",
 			"rms_const": null
 		},
 		"1894": {
@@ -43306,7 +43283,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 11,
-			"localised_name": "",
+			"localised_name": "Dead Pasture",
 			"rms_const": null
 		},
 		"1895": {
@@ -43352,7 +43329,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Argali",
 			"rms_const": "ARGALI"
 		},
 		"1897": {
@@ -43362,7 +43339,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 5,
+			"attack": 0,
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1897,
@@ -43375,7 +43352,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 49,
-			"localised_name": "",
+			"localised_name": "Pasture",
 			"rms_const": null
 		},
 		"1898": {
@@ -43398,7 +43375,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 11,
-			"localised_name": "",
+			"localised_name": "Dead Pasture",
 			"rms_const": null
 		},
 		"1899": {
@@ -43467,7 +43444,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "",
+			"localised_name": "Fire Lancer",
 			"rms_const": null
 		},
 		"1902": {
@@ -43513,7 +43490,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "empty",
+			"localised_name": "Elite Fire Lancer",
 			"rms_const": null
 		},
 		"1904": {
@@ -43536,7 +43513,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 13,
-			"localised_name": "",
+			"localised_name": "Rocket Cart",
 			"rms_const": null
 		},
 		"1905": {
@@ -43605,7 +43582,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 13,
-			"localised_name": "",
+			"localised_name": "Heavy Rocket Cart",
 			"rms_const": null
 		},
 		"1908": {
@@ -43628,7 +43605,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "empty",
+			"localised_name": "Iron Pagoda",
 			"rms_const": null
 		},
 		"1909": {
@@ -43674,7 +43651,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "empty",
+			"localised_name": "Elite Iron Pagoda",
 			"rms_const": null
 		},
 		"1911": {
@@ -43697,7 +43674,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 44,
-			"localised_name": "empty",
+			"localised_name": "Grenadier",
 			"rms_const": null
 		},
 		"1912": {
@@ -43904,7 +43881,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "",
+			"localised_name": "Liao Dao",
 			"rms_const": null
 		},
 		"1921": {
@@ -43950,7 +43927,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "",
+			"localised_name": "Elite Liao Dao",
 			"rms_const": null
 		},
 		"1923": {
@@ -43973,7 +43950,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "",
+			"localised_name": "Mounted Trebuchet",
 			"rms_const": null
 		},
 		"1924": {
@@ -44364,7 +44341,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 18,
-			"localised_name": "empty",
+			"localised_name": "Pagan Priest",
 			"rms_const": null
 		},
 		"1941": {
@@ -44387,7 +44364,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 43,
-			"localised_name": "Rain",
+			"localised_name": "Pagan Priest with Relic",
 			"rms_const": null
 		},
 		"1942": {
@@ -44410,7 +44387,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 13,
-			"localised_name": "empty",
+			"localised_name": "Traction Trebuchet",
 			"rms_const": null
 		},
 		"1943": {
@@ -44456,7 +44433,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "empty",
+			"localised_name": "Hei Guang Cavalry",
 			"rms_const": null
 		},
 		"1945": {
@@ -44502,7 +44479,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "empty",
+			"localised_name": "Heavy Hei Guang Cavalry",
 			"rms_const": null
 		},
 		"1947": {
@@ -44548,7 +44525,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 22,
-			"localised_name": "empty",
+			"localised_name": "Lou Chuan",
 			"rms_const": null
 		},
 		"1949": {
@@ -44571,7 +44548,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "",
+			"localised_name": "Tiger Cavalry",
 			"rms_const": null
 		},
 		"1950": {
@@ -44617,7 +44594,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "",
+			"localised_name": "Elite Tiger Cavalry",
 			"rms_const": null
 		},
 		"1952": {
@@ -44640,7 +44617,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 36,
-			"localised_name": "",
+			"localised_name": "Xianbei Raider",
 			"rms_const": null
 		},
 		"1953": {
@@ -44686,13 +44663,13 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Pile of Wood",
+			"localised_name": "Cao Cao",
 			"rms_const": null
 		},
 		"1955": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
+				"food": 50,
 				"gold": 0,
 				"stone": 0
 			},
@@ -44701,16 +44678,16 @@
 			"pierce_armor": 0,
 			"base_id": 1955,
 			"help_converter": 26000,
-			"language_file_name": 0,
+			"language_file_name": 21265,
 			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
+			"name": "REDFOX",
+			"hit_points": 3,
 			"line_of_sight": 2,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "",
-			"rms_const": null
+			"type": 70,
+			"class": 9,
+			"localised_name": "Red Fox",
+			"rms_const": "RED_FOX"
 		},
 		"1956": {
 			"cost": {
@@ -44732,7 +44709,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 38,
-			"localised_name": "",
+			"localised_name": "Dummy Target",
 			"rms_const": null
 		},
 		"1957": {
@@ -44761,7 +44738,7 @@
 		"1958": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
+				"food": 50,
 				"gold": 0,
 				"stone": 0
 			},
@@ -44770,16 +44747,16 @@
 			"pierce_armor": 0,
 			"base_id": 1958,
 			"help_converter": 26000,
-			"language_file_name": 0,
+			"language_file_name": 21266,
 			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
+			"name": "ARCTICFOX",
+			"hit_points": 3,
 			"line_of_sight": 2,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "",
-			"rms_const": null
+			"type": 70,
+			"class": 9,
+			"localised_name": "Arctic Fox",
+			"rms_const": "ARCTIC_FOX"
 		},
 		"1959": {
 			"cost": {
@@ -44801,7 +44778,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Monk with British Relic",
+			"localised_name": "White Feather Guard",
 			"rms_const": null
 		},
 		"1960": {
@@ -44847,13 +44824,13 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Monk with Byzantine Relic",
+			"localised_name": "Elite White Feather Guard",
 			"rms_const": null
 		},
 		"1962": {
 			"cost": {
 				"wood": 0,
-				"food": 50,
+				"food": 65,
 				"gold": 90,
 				"stone": 0
 			},
@@ -44870,13 +44847,13 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Monk with Chinese Relic",
+			"localised_name": "War Chariot (Focus Fire)",
 			"rms_const": null
 		},
 		"1963": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
+				"food": 25,
 				"gold": 0,
 				"stone": 0
 			},
@@ -44884,17 +44861,17 @@
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1963,
-			"help_converter": 26000,
-			"language_file_name": 0,
-			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"help_converter": 26503,
+			"language_file_name": 21274,
+			"language_file_help": 105503,
+			"name": "LLAMAB",
+			"hit_points": 7,
+			"line_of_sight": 3,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "",
-			"rms_const": null
+			"type": 70,
+			"class": 58,
+			"localised_name": "Llama B",
+			"rms_const": "LLAMA_B"
 		},
 		"1964": {
 			"cost": {
@@ -44922,25 +44899,25 @@
 		"1965": {
 			"cost": {
 				"wood": 0,
-				"food": 0,
+				"food": 50,
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 3,
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 1965,
 			"help_converter": 26000,
-			"language_file_name": 0,
+			"language_file_name": 21275,
 			"language_file_help": 105000,
-			"name": "",
-			"hit_points": 1,
-			"line_of_sight": 2,
+			"name": "ARCTICWOLF",
+			"hit_points": 25,
+			"line_of_sight": 12,
 			"garrison_capacity": 0,
-			"type": 10,
-			"class": -1,
-			"localised_name": "",
-			"rms_const": null
+			"type": 70,
+			"class": 10,
+			"localised_name": "Arctic Wolf",
+			"rms_const": "ARCTIC_WOLF"
 		},
 		"1966": {
 			"cost": {
@@ -44962,7 +44939,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Monk with Frankish Relic",
+			"localised_name": "Liu Bei",
 			"rms_const": null
 		},
 		"1967": {
@@ -45008,7 +44985,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 0,
-			"localised_name": "Monk with Gothic Relic",
+			"localised_name": "Fire Archer",
 			"rms_const": null
 		},
 		"1969": {
@@ -45054,7 +45031,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 0,
-			"localised_name": "Monk with Japanese Relic",
+			"localised_name": "Elite Fire Archer",
 			"rms_const": null
 		},
 		"1971": {
@@ -45087,7 +45064,7 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 0,
+			"attack": 4,
 			"melee_armor": 1000,
 			"pierce_armor": 0,
 			"base_id": 1972,
@@ -45111,7 +45088,7 @@
 				"stone": 0
 			},
 			"attack": 8,
-			"melee_armor": 3,
+			"melee_armor": 2,
 			"pierce_armor": 5,
 			"base_id": 1974,
 			"help_converter": 26368,
@@ -45123,7 +45100,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Monk with Persian Relic",
+			"localised_name": "Jian Swordsman",
 			"rms_const": null
 		},
 		"1975": {
@@ -45169,7 +45146,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Monk with Persian Relic",
+			"localised_name": "Jian Swordsman",
 			"rms_const": null
 		},
 		"1977": {
@@ -45215,7 +45192,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Monk with Teutonic Relic",
+			"localised_name": "Sun Jian",
 			"rms_const": null
 		},
 		"1979": {
@@ -45244,7 +45221,7 @@
 		"1980": {
 			"cost": {
 				"wood": 0,
-				"food": 50,
+				"food": 65,
 				"gold": 90,
 				"stone": 0
 			},
@@ -45261,7 +45238,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "",
+			"localised_name": "War Chariot (Barrage)",
 			"rms_const": null
 		},
 		"1982": {
@@ -45330,7 +45307,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Tree (Lush Bamboo Forest)",
 			"rms_const": "LUSH_BAMBOO_TREE"
 		},
 		"1985": {
@@ -45353,7 +45330,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Lush Bamboo Stump",
 			"rms_const": null
 		},
 		"1986": {
@@ -45376,7 +45353,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Paper Lantern",
 			"rms_const": null
 		},
 		"1987": {
@@ -45399,7 +45376,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Chinese Ruins",
 			"rms_const": null
 		},
 		"1988": {
@@ -45422,7 +45399,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 1,
-			"localised_name": "",
+			"localised_name": "Emperor in a Litter",
 			"rms_const": null
 		},
 		"1989": {
@@ -45445,7 +45422,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Paifang Gate (Small)",
 			"rms_const": null
 		},
 		"1990": {
@@ -45468,7 +45445,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Paifang Gate (Large)",
 			"rms_const": null
 		},
 		"1991": {
@@ -45491,7 +45468,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Fountain",
 			"rms_const": null
 		},
 		"1992": {
@@ -45514,7 +45491,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--End A",
 			"rms_const": null
 		},
 		"1993": {
@@ -45537,7 +45514,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--End B",
 			"rms_const": null
 		},
 		"1994": {
@@ -45560,7 +45537,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--End C",
 			"rms_const": null
 		},
 		"1995": {
@@ -45583,7 +45560,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Middle A",
 			"rms_const": null
 		},
 		"1996": {
@@ -45606,7 +45583,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Middle B",
 			"rms_const": null
 		},
 		"1997": {
@@ -45629,7 +45606,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Middle C",
 			"rms_const": null
 		},
 		"1998": {
@@ -45652,7 +45629,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Broken A",
 			"rms_const": null
 		},
 		"1999": {
@@ -45675,7 +45652,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Broken B",
 			"rms_const": null
 		},
 		"2000": {
@@ -45698,7 +45675,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Broken C",
 			"rms_const": null
 		},
 		"2001": {
@@ -45721,7 +45698,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Cracked",
 			"rms_const": null
 		},
 		"2002": {
@@ -45744,7 +45721,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Rails A",
 			"rms_const": null
 		},
 		"2003": {
@@ -45767,7 +45744,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Rails B",
 			"rms_const": null
 		},
 		"2004": {
@@ -45790,7 +45767,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Bridge Piece CD--Rails C",
 			"rms_const": null
 		},
 		"2005": {
@@ -45813,7 +45790,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Pagoda D",
 			"rms_const": null
 		},
 		"2006": {
@@ -45836,7 +45813,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Pagoda E",
 			"rms_const": null
 		},
 		"2007": {
@@ -45859,7 +45836,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Garden Pavilion",
 			"rms_const": null
 		},
 		"2008": {
@@ -45882,7 +45859,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Rock (Pillar)",
 			"rms_const": null
 		},
 		"2009": {
@@ -45905,7 +45882,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Rock (Limestone)",
 			"rms_const": null
 		},
 		"2010": {
@@ -45928,7 +45905,7 @@
 			"garrison_capacity": 0,
 			"type": 20,
 			"class": 30,
-			"localised_name": "",
+			"localised_name": "Flag N",
 			"rms_const": null
 		},
 		"2011": {
@@ -45951,7 +45928,7 @@
 			"garrison_capacity": 0,
 			"type": 20,
 			"class": 30,
-			"localised_name": "",
+			"localised_name": "Flag O",
 			"rms_const": null
 		},
 		"2012": {
@@ -45974,7 +45951,7 @@
 			"garrison_capacity": 0,
 			"type": 20,
 			"class": 30,
-			"localised_name": "",
+			"localised_name": "Flag P",
 			"rms_const": null
 		},
 		"2013": {
@@ -45997,7 +45974,7 @@
 			"garrison_capacity": 0,
 			"type": 20,
 			"class": 30,
-			"localised_name": "",
+			"localised_name": "Flag Ritual A",
 			"rms_const": null
 		},
 		"2014": {
@@ -46020,7 +45997,7 @@
 			"garrison_capacity": 0,
 			"type": 20,
 			"class": 30,
-			"localised_name": "",
+			"localised_name": "Flag Ritual B",
 			"rms_const": null
 		},
 		"2015": {
@@ -46043,7 +46020,7 @@
 			"garrison_capacity": 0,
 			"type": 20,
 			"class": 30,
-			"localised_name": "",
+			"localised_name": "Flag Ritual C",
 			"rms_const": null
 		},
 		"2016": {
@@ -46066,7 +46043,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Tree (Asian Pine)",
 			"rms_const": "ASIAN_PINE_TREE"
 		},
 		"2017": {
@@ -46089,7 +46066,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Tree (Peach Blossom)",
 			"rms_const": "PEACH_BLOSSOM_TREE"
 		},
 		"2018": {
@@ -46112,7 +46089,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Asian Carts",
 			"rms_const": null
 		},
 		"2019": {
@@ -46135,7 +46112,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Weapon Stacks",
 			"rms_const": null
 		},
 		"2020": {
@@ -46158,7 +46135,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Garden Bridge",
 			"rms_const": null
 		},
 		"2021": {
@@ -46181,7 +46158,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Siege Props",
 			"rms_const": null
 		},
 		"2022": {
@@ -46204,7 +46181,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Asian Lanterns",
 			"rms_const": null
 		},
 		"2023": {
@@ -46227,7 +46204,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Burned Building B",
 			"rms_const": null
 		},
 		"2024": {
@@ -46250,7 +46227,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Asian Market Stalls",
 			"rms_const": null
 		},
 		"2025": {
@@ -46273,7 +46250,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Tree (Willow)",
 			"rms_const": "WILLOW_TREE"
 		},
 		"2026": {
@@ -46296,7 +46273,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 11,
-			"localised_name": "",
+			"localised_name": "Red Crown Crane",
 			"rms_const": null
 		},
 		"2027": {
@@ -46319,7 +46296,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Tree (Asian Maple, Green)",
 			"rms_const": "ASIAN_MAPLE_GREEN_TREE"
 		},
 		"2028": {
@@ -46342,7 +46319,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 15,
-			"localised_name": "",
+			"localised_name": "Tree (Asian Maple, Autumn)",
 			"rms_const": "ASIAN_MAPLE_AUTUMN_TREE"
 		},
 		"2029": {
@@ -46365,7 +46342,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Fallen Leaves (Peach Blossom)",
 			"rms_const": null
 		},
 		"2030": {
@@ -46388,7 +46365,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Fallen Leaves (Maple)",
 			"rms_const": null
 		},
 		"2031": {
@@ -46411,7 +46388,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Fallen Leaves (Maple, Autumn)",
 			"rms_const": null
 		},
 		"2032": {
@@ -46434,7 +46411,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Turkish Relic",
+			"localised_name": "Lü Bu",
 			"rms_const": null
 		},
 		"2033": {
@@ -46457,7 +46434,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 3,
-			"localised_name": "",
+			"localised_name": "Yurt M",
 			"rms_const": null
 		},
 		"2034": {
@@ -46480,7 +46457,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "British Relic",
+			"localised_name": "Guan Yu",
 			"rms_const": null
 		},
 		"2035": {
@@ -46526,7 +46503,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 59,
-			"localised_name": "Byzantine Relic",
+			"localised_name": "Zhuge Liang",
 			"rms_const": null
 		},
 		"2037": {
@@ -46572,7 +46549,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Chinese Relic",
+			"localised_name": "Zhang Fei",
 			"rms_const": null
 		},
 		"2039": {
@@ -46618,7 +46595,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Frankish Relic",
+			"localised_name": "Sun Ce",
 			"rms_const": null
 		},
 		"2041": {
@@ -46664,7 +46641,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 36,
-			"localised_name": "Gothic Relic",
+			"localised_name": "Sun Quan",
 			"rms_const": null
 		},
 		"2043": {
@@ -46710,7 +46687,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 0,
-			"localised_name": "Japanese Relic",
+			"localised_name": "Zhou Yu",
 			"rms_const": null
 		},
 		"2045": {
@@ -46733,7 +46710,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Persian Relic",
+			"localised_name": "Dong Zhuo",
 			"rms_const": null
 		},
 		"2046": {
@@ -46756,7 +46733,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 36,
-			"localised_name": "Saracen Relic",
+			"localised_name": "Yuan Shao",
 			"rms_const": null
 		},
 		"2047": {
@@ -46779,7 +46756,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 18,
-			"localised_name": "Teutonic Relic",
+			"localised_name": "Yu Ji",
 			"rms_const": null
 		},
 		"2048": {
@@ -46802,7 +46779,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Monk with Turkish Relic",
+			"localised_name": "White Tiger Yan",
 			"rms_const": null
 		},
 		"2049": {
@@ -46825,7 +46802,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Flowers 1",
+			"localised_name": "Liu Biao",
 			"rms_const": null
 		},
 		"2050": {
@@ -46848,7 +46825,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 18,
-			"localised_name": "Flowers 2",
+			"localised_name": "Zhang Jue",
 			"rms_const": null
 		},
 		"2051": {
@@ -46871,7 +46848,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Flowers 3",
+			"localised_name": "Zhao Yun",
 			"rms_const": null
 		},
 		"2052": {
@@ -46894,7 +46871,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "",
+			"localised_name": "Cao Cao (Campaign)",
 			"rms_const": null
 		},
 		"2053": {
@@ -46917,7 +46894,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "",
+			"localised_name": "Liu Bei (Campaign)",
 			"rms_const": null
 		},
 		"2054": {
@@ -46940,7 +46917,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "",
+			"localised_name": "Sun Jian (Campaign)",
 			"rms_const": null
 		},
 		"2055": {
@@ -47032,7 +47009,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Huabiao Totem",
 			"rms_const": null
 		},
 		"2059": {
@@ -47055,7 +47032,7 @@
 			"garrison_capacity": 0,
 			"type": 10,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Que Tower",
 			"rms_const": null
 		},
 		"2060": {
@@ -47078,7 +47055,7 @@
 			"garrison_capacity": 10,
 			"type": 80,
 			"class": 3,
-			"localised_name": "Barracks 2",
+			"localised_name": "Hall of Heroes",
 			"rms_const": null
 		},
 		"2061": {
@@ -47101,7 +47078,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Turkish Relic",
+			"localised_name": "Lü Bu",
 			"rms_const": null
 		},
 		"2062": {
@@ -47147,7 +47124,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 23,
-			"localised_name": "Gothic Relic",
+			"localised_name": "Sun Quan",
 			"rms_const": null
 		},
 		"2064": {
@@ -47170,7 +47147,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "British Relic",
+			"localised_name": "Guan Yu",
 			"rms_const": null
 		},
 		"2065": {
@@ -47193,7 +47170,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 12,
-			"localised_name": "Monk with Teutonic Relic",
+			"localised_name": "Sun Jian",
 			"rms_const": null
 		},
 		"2066": {
@@ -47216,7 +47193,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 6,
-			"localised_name": "Monk with Frankish Relic",
+			"localised_name": "Liu Bei",
 			"rms_const": null
 		},
 		"2067": {
@@ -47239,7 +47216,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 11,
-			"localised_name": "",
+			"localised_name": "Kongming Lantern",
 			"rms_const": null
 		},
 		"2068": {
@@ -47262,7 +47239,7 @@
 			"garrison_capacity": 0,
 			"type": 80,
 			"class": 27,
-			"localised_name": "",
+			"localised_name": "Kongming Lantern",
 			"rms_const": null
 		},
 		"2069": {
@@ -47561,7 +47538,7 @@
 			"garrison_capacity": 0,
 			"type": 20,
 			"class": 14,
-			"localised_name": "",
+			"localised_name": "Panda Rock",
 			"rms_const": null
 		},
 		"2083": {
@@ -47584,7 +47561,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 58,
-			"localised_name": "",
+			"localised_name": "Chicken A",
 			"rms_const": "CHICKEN_A"
 		},
 		"2084": {
@@ -47602,12 +47579,12 @@
 			"language_file_name": 21221,
 			"language_file_help": 105071,
 			"name": "WCHICKENA",
-			"hit_points": 5,
+			"hit_points": 3,
 			"line_of_sight": 2,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Wild Chicken A",
 			"rms_const": "WILD_CHICKEN_A"
 		},
 		"2085": {
@@ -47630,7 +47607,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 58,
-			"localised_name": "",
+			"localised_name": "Chicken B",
 			"rms_const": "CHICKEN_B"
 		},
 		"2086": {
@@ -47648,12 +47625,12 @@
 			"language_file_name": 21222,
 			"language_file_help": 105071,
 			"name": "WCHICKENB",
-			"hit_points": 5,
+			"hit_points": 3,
 			"line_of_sight": 2,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Wild Chicken B",
 			"rms_const": "WILD_CHICKEN_B"
 		},
 		"2087": {
@@ -47676,7 +47653,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 58,
-			"localised_name": "",
+			"localised_name": "Chicken C",
 			"rms_const": "CHICKEN_C"
 		},
 		"2088": {
@@ -47694,12 +47671,12 @@
 			"language_file_name": 21223,
 			"language_file_help": 105071,
 			"name": "WCHICKENC",
-			"hit_points": 5,
+			"hit_points": 3,
 			"line_of_sight": 2,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Wild Chicken C",
 			"rms_const": "WILD_CHICKEN_C"
 		},
 		"2089": {
@@ -47716,13 +47693,13 @@
 			"help_converter": 26712,
 			"language_file_name": 21227,
 			"language_file_help": 105712,
-			"name": "BEAR",
+			"name": "BLACKBEAR",
 			"hit_points": 25,
 			"line_of_sight": 10,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 10,
-			"localised_name": "",
+			"localised_name": "Black Bear",
 			"rms_const": "BLACK_BEAR"
 		},
 		"2090": {
@@ -47732,20 +47709,20 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"attack": 3,
+			"attack": 4,
 			"melee_armor": 0,
 			"pierce_armor": 0,
 			"base_id": 2090,
 			"help_converter": 26712,
 			"language_file_name": 21228,
 			"language_file_help": 105712,
-			"name": "BEAR",
-			"hit_points": 25,
+			"name": "POLARBEAR",
+			"hit_points": 30,
 			"line_of_sight": 10,
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 10,
-			"localised_name": "",
+			"localised_name": "Polar Bear",
 			"rms_const": "POLAR_BEAR"
 		},
 		"2091": {
@@ -47768,7 +47745,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 10,
-			"localised_name": "",
+			"localised_name": "Arabian Wolf",
 			"rms_const": "ARABIAN_WOLF"
 		},
 		"2092": {
@@ -47791,7 +47768,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Wild Horse B",
 			"rms_const": "WILD_HORSE_B"
 		},
 		"2093": {
@@ -47814,7 +47791,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Wild Horse C",
 			"rms_const": "WILD_HORSE_C"
 		},
 		"2094": {
@@ -47837,7 +47814,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Wild Horse D",
 			"rms_const": "WILD_HORSE_D"
 		},
 		"2095": {
@@ -47860,7 +47837,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Wild Horse E",
 			"rms_const": "WILD_HORSE_E"
 		},
 		"2096": {
@@ -47883,7 +47860,7 @@
 			"garrison_capacity": 0,
 			"type": 70,
 			"class": 9,
-			"localised_name": "",
+			"localised_name": "Monkey",
 			"rms_const": "WILD_MONKEY"
 		},
 		"2097": {
@@ -47898,7 +47875,7 @@
 			"pierce_armor": 0,
 			"base_id": 2097,
 			"help_converter": 26735,
-			"language_file_name": 5734,
+			"language_file_name": 21235,
 			"language_file_help": 105735,
 			"name": "WPENGUI",
 			"hit_points": 5,
@@ -47908,6 +47885,75 @@
 			"class": 9,
 			"localised_name": "Penguin",
 			"rms_const": "WILD_PENGUIN"
+		},
+		"2098": {
+			"cost": {
+				"wood": 0,
+				"food": 50,
+				"gold": 0,
+				"stone": 0
+			},
+			"attack": 0,
+			"melee_armor": 0,
+			"pierce_armor": 0,
+			"base_id": 2098,
+			"help_converter": 26000,
+			"language_file_name": 21263,
+			"language_file_help": 105000,
+			"name": "HAREA",
+			"hit_points": 3,
+			"line_of_sight": 2,
+			"garrison_capacity": 0,
+			"type": 70,
+			"class": 9,
+			"localised_name": "Hare A",
+			"rms_const": "HARE_A"
+		},
+		"2099": {
+			"cost": {
+				"wood": 0,
+				"food": 50,
+				"gold": 0,
+				"stone": 0
+			},
+			"attack": 0,
+			"melee_armor": 0,
+			"pierce_armor": 0,
+			"base_id": 2099,
+			"help_converter": 26000,
+			"language_file_name": 21264,
+			"language_file_help": 105000,
+			"name": "HAREB",
+			"hit_points": 3,
+			"line_of_sight": 2,
+			"garrison_capacity": 0,
+			"type": 70,
+			"class": 9,
+			"localised_name": "Hare B",
+			"rms_const": "HARE_B"
+		},
+		"2100": {
+			"cost": {
+				"wood": 0,
+				"food": 50,
+				"gold": 0,
+				"stone": 0
+			},
+			"attack": 0,
+			"melee_armor": 0,
+			"pierce_armor": 0,
+			"base_id": 2100,
+			"help_converter": 26000,
+			"language_file_name": 21279,
+			"language_file_help": 105000,
+			"name": "ARCTICHARE",
+			"hit_points": 3,
+			"line_of_sight": 2,
+			"garrison_capacity": 0,
+			"type": 70,
+			"class": 9,
+			"localised_name": "Arctic Hare",
+			"rms_const": "ARCTIC_HARE"
 		},
 		"2101": {
 			"cost": {
@@ -48124,7 +48170,7 @@
 				"stone": 0
 			},
 			"attack": 10,
-			"melee_armor": 2,
+			"melee_armor": 1,
 			"pierce_armor": 1,
 			"base_id": 2110,
 			"help_converter": 426007,
@@ -48147,7 +48193,7 @@
 				"stone": 0
 			},
 			"attack": 12,
-			"melee_armor": 3,
+			"melee_armor": 2,
 			"pierce_armor": 1,
 			"base_id": 2111,
 			"help_converter": 426008,
@@ -48936,7 +48982,7 @@
 			"language_file_name": 405030,
 			"language_file_help": 505030,
 			"name": "Elite War Chariot",
-			"hit_points": 140,
+			"hit_points": 125,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -48953,7 +48999,7 @@
 			},
 			"attack": 4,
 			"melee_armor": 0,
-			"pierce_armor": 3,
+			"pierce_armor": 1,
 			"base_id": 2162,
 			"help_converter": 426031,
 			"language_file_name": 405031,
@@ -49005,7 +49051,7 @@
 			"language_file_name": 405031,
 			"language_file_help": 505031,
 			"name": "Polemarch 2",
-			"hit_points": 55,
+			"hit_points": 65,
 			"line_of_sight": 6,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -49028,7 +49074,7 @@
 			"language_file_name": 405031,
 			"language_file_help": 505082,
 			"name": "Polemarch 3",
-			"hit_points": 60,
+			"hit_points": 80,
 			"line_of_sight": 7,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -49051,7 +49097,7 @@
 			"language_file_name": 405031,
 			"language_file_help": 505031,
 			"name": "Polemarch 4",
-			"hit_points": 80,
+			"hit_points": 120,
 			"line_of_sight": 8,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -49074,7 +49120,7 @@
 			"language_file_name": 405031,
 			"language_file_help": 505031,
 			"name": "Polemarch 3 with Ephorate",
-			"hit_points": 60,
+			"hit_points": 80,
 			"line_of_sight": 7,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -51052,7 +51098,7 @@
 			"language_file_name": 405031,
 			"language_file_help": 505031,
 			"name": "Polemarch 4 with Ephorate",
-			"hit_points": 80,
+			"hit_points": 120,
 			"line_of_sight": 8,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -51075,7 +51121,7 @@
 			"language_file_name": 405031,
 			"language_file_help": 505031,
 			"name": "Polemarch 3 with Morai",
-			"hit_points": 60,
+			"hit_points": 80,
 			"line_of_sight": 7,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -51098,7 +51144,7 @@
 			"language_file_name": 405031,
 			"language_file_help": 505031,
 			"name": "Polemarch 4 with Morai",
-			"hit_points": 80,
+			"hit_points": 120,
 			"line_of_sight": 8,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -51301,9 +51347,9 @@
 			"melee_armor": 2,
 			"pierce_armor": 9,
 			"base_id": 2281,
-			"help_converter": 26717,
+			"help_converter": 26000,
 			"language_file_name": 421028,
-			"language_file_help": 105717,
+			"language_file_help": 105000,
 			"name": "Sapper Tunnel",
 			"hit_points": 800,
 			"line_of_sight": 6,
@@ -53603,10 +53649,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "Anarchy + Elite Huskarl",
 			"localised_name": ""
 		},
 		"19": {
@@ -54067,9 +54113,9 @@
 		"54": {
 			"cost": {
 				"wood": 200,
-				"food": 300,
+				"food": 0,
 				"gold": 0,
-				"stone": 0
+				"stone": 50
 			},
 			"help_converter": 28054,
 			"language_file_name": 7054,
@@ -58084,8 +58130,8 @@
 		"363": {
 			"cost": {
 				"wood": 0,
-				"food": 1000,
-				"gold": 750,
+				"food": 850,
+				"gold": 550,
 				"stone": 0
 			},
 			"help_converter": 28394,
@@ -59466,10 +59512,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28000,
+			"language_file_name": 7000,
+			"language_file_help": 107000,
+			"name": "Marauders + Elite Tarkan",
 			"localised_name": ""
 		},
 		"470": {
@@ -59957,7 +60003,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 500,
-				"gold": 300,
+				"gold": 650,
 				"stone": 0
 			},
 			"help_converter": 28271,
@@ -60203,7 +60249,7 @@
 		"526": {
 			"cost": {
 				"wood": 0,
-				"food": 1000,
+				"food": 1200,
 				"gold": 600,
 				"stone": 0
 			},
@@ -60445,7 +60491,7 @@
 			"language_file_name": 10286,
 			"language_file_help": 107000,
 			"name": "",
-			"localised_name": "Mayans"
+			"localised_name": "Maya"
 		},
 		"545": {
 			"cost": {
@@ -60510,7 +60556,7 @@
 			"language_file_name": 10291,
 			"language_file_help": 107000,
 			"name": "",
-			"localised_name": "Incas"
+			"localised_name": "Inca"
 		},
 		"550": {
 			"cost": {
@@ -65099,7 +65145,7 @@
 			"language_file_name": 7084,
 			"language_file_help": 107084,
 			"name": "Pirotecnia",
-			"localised_name": ""
+			"localised_name": "Pirotechnia"
 		},
 		"903": {
 			"cost": {
@@ -66106,14 +66152,14 @@
 			"cost": {
 				"wood": 800,
 				"food": 0,
-				"gold": 750,
+				"gold": 600,
 				"stone": 0
 			},
 			"help_converter": 28470,
 			"language_file_name": 7470,
 			"language_file_help": 107470,
 			"name": "Heavy Rocket Cart",
-			"localised_name": ""
+			"localised_name": "Heavy Rocket Cart"
 		},
 		"981": {
 			"cost": {
@@ -66139,7 +66185,7 @@
 			"language_file_name": 7463,
 			"language_file_help": 107463,
 			"name": "Elite Fire Lancer",
-			"localised_name": ""
+			"localised_name": "Elite Fire Lancer"
 		},
 		"983": {
 			"cost": {
@@ -66191,7 +66237,7 @@
 			"language_file_name": 10322,
 			"language_file_help": 107000,
 			"name": "",
-			"localised_name": " Bring Object to Object"
+			"localised_name": "Jurchens"
 		},
 		"987": {
 			"cost": {
@@ -66217,7 +66263,7 @@
 			"language_file_name": 10323,
 			"language_file_help": 107000,
 			"name": "",
-			"localised_name": " Bring Object to Area"
+			"localised_name": "Khitans"
 		},
 		"989": {
 			"cost": {
@@ -66256,7 +66302,7 @@
 			"language_file_name": 7464,
 			"language_file_help": 107464,
 			"name": "Elite Iron Pagoda",
-			"localised_name": ""
+			"localised_name": "Elite Iron Pagoda"
 		},
 		"992": {
 			"cost": {
@@ -66321,7 +66367,7 @@
 			"language_file_name": 7466,
 			"language_file_help": 107466,
 			"name": "Fortifed Bastions",
-			"localised_name": ""
+			"localised_name": "Fortified Bastions"
 		},
 		"997": {
 			"cost": {
@@ -66334,7 +66380,7 @@
 			"language_file_name": 7467,
 			"language_file_help": 107467,
 			"name": "Thunderclap Bombs",
-			"localised_name": ""
+			"localised_name": "Thunderclap Bombs"
 		},
 		"998": {
 			"cost": {
@@ -66399,7 +66445,7 @@
 			"language_file_name": 7465,
 			"language_file_help": 107465,
 			"name": "Elite Liao Dao",
-			"localised_name": ""
+			"localised_name": "Elite Liao Dao"
 		},
 		"1003": {
 			"cost": {
@@ -66451,7 +66497,7 @@
 			"language_file_name": 7468,
 			"language_file_help": 107468,
 			"name": "Lamellar Armor",
-			"localised_name": ""
+			"localised_name": "Lamellar Armor"
 		},
 		"1007": {
 			"cost": {
@@ -66464,7 +66510,7 @@
 			"language_file_name": 7469,
 			"language_file_help": 107469,
 			"name": "Ordo Cavalry",
-			"localised_name": ""
+			"localised_name": "Ordo Cavalry"
 		},
 		"1008": {
 			"cost": {
@@ -66503,7 +66549,7 @@
 			"language_file_name": 7483,
 			"language_file_help": 107483,
 			"name": "Dragon Ship",
-			"localised_name": ""
+			"localised_name": "Dragon Ship"
 		},
 		"1011": {
 			"cost": {
@@ -66529,7 +66575,7 @@
 			"language_file_name": 7486,
 			"language_file_help": 107486,
 			"name": "Grazing Grasslands",
-			"localised_name": ""
+			"localised_name": "Transhumance"
 		},
 		"1013": {
 			"cost": {
@@ -66542,7 +66588,7 @@
 			"language_file_name": 7485,
 			"language_file_help": 107485,
 			"name": "Enclosures",
-			"localised_name": ""
+			"localised_name": "Pastoralism"
 		},
 		"1014": {
 			"cost": {
@@ -66555,7 +66601,7 @@
 			"language_file_name": 7484,
 			"language_file_help": 107484,
 			"name": "Livestock Husbandry",
-			"localised_name": ""
+			"localised_name": "Domestication"
 		},
 		"1015": {
 			"cost": {
@@ -66676,16 +66722,16 @@
 		},
 		"1024": {
 			"cost": {
-				"wood": 0,
+				"wood": 1,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
 			},
 			"help_converter": 28000,
-			"language_file_name": 7000,
+			"language_file_name": 10316,
 			"language_file_help": 107000,
-			"name": "RESERVED",
-			"localised_name": ""
+			"name": "",
+			"localised_name": "Achaemenids"
 		},
 		"1025": {
 			"cost": {
@@ -66715,16 +66761,16 @@
 		},
 		"1027": {
 			"cost": {
-				"wood": 0,
+				"wood": 1,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
 			},
 			"help_converter": 28000,
-			"language_file_name": 7000,
+			"language_file_name": 10317,
 			"language_file_help": 107000,
 			"name": "",
-			"localised_name": ""
+			"localised_name": "Athenians"
 		},
 		"1028": {
 			"cost": {
@@ -66737,20 +66783,20 @@
 			"language_file_name": 10319,
 			"language_file_help": 107000,
 			"name": "",
-			"localised_name": "Technologies"
+			"localised_name": "Shu"
 		},
 		"1029": {
 			"cost": {
-				"wood": 0,
+				"wood": 1,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
 			},
 			"help_converter": 28000,
-			"language_file_name": 7000,
+			"language_file_name": 10321,
 			"language_file_help": 107000,
 			"name": "",
-			"localised_name": ""
+			"localised_name": "Wei"
 		},
 		"1030": {
 			"cost": {
@@ -66763,7 +66809,7 @@
 			"language_file_name": 10320,
 			"language_file_help": 107000,
 			"name": "",
-			"localised_name": ""
+			"localised_name": "Wu"
 		},
 		"1031": {
 			"cost": {
@@ -66802,7 +66848,7 @@
 			"language_file_name": 7471,
 			"language_file_help": 107471,
 			"name": "Heavy Hei-Kuang Cavalry",
-			"localised_name": ""
+			"localised_name": "Heavy Hei Guang Cavalry"
 		},
 		"1034": {
 			"cost": {
@@ -66841,7 +66887,7 @@
 			"language_file_name": 7472,
 			"language_file_help": 107472,
 			"name": "Elite Tiger Cavalry",
-			"localised_name": ""
+			"localised_name": "Elite Tiger Cavalry"
 		},
 		"1037": {
 			"cost": {
@@ -67009,7 +67055,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Fre vill + Wheelbarrow",
 			"localised_name": ""
 		},
 		"1050": {
@@ -67022,7 +67068,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Fre vill + Hand Cart",
 			"localised_name": ""
 		},
 		"1051": {
@@ -67035,7 +67081,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Fre vill + Gillnets",
 			"localised_name": ""
 		},
 		"1052": {
@@ -67048,7 +67094,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Fre vill + Caravan",
 			"localised_name": ""
 		},
 		"1053": {
@@ -67061,7 +67107,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "RESERVED",
+			"name": "C-Bonus, Fre vill + Guilds",
 			"localised_name": ""
 		},
 		"1054": {
@@ -67166,7 +67212,7 @@
 			"language_file_name": 7473,
 			"language_file_help": 107473,
 			"name": "Tuntian",
-			"localised_name": ""
+			"localised_name": "Tuntian"
 		},
 		"1062": {
 			"cost": {
@@ -67179,7 +67225,7 @@
 			"language_file_name": 7474,
 			"language_file_help": 107474,
 			"name": "Ming-Kuang Armor",
-			"localised_name": ""
+			"localised_name": "Ming Guang Armor"
 		},
 		"1063": {
 			"cost": {
@@ -67205,7 +67251,7 @@
 			"language_file_name": 7475,
 			"language_file_help": 107475,
 			"name": "Elite White Feather Guard",
-			"localised_name": ""
+			"localised_name": "Elite White Feather Guard"
 		},
 		"1065": {
 			"cost": {
@@ -67270,7 +67316,7 @@
 			"language_file_name": 7476,
 			"language_file_help": 107476,
 			"name": "Bolt Magazine",
-			"localised_name": ""
+			"localised_name": "Bolt Magazine"
 		},
 		"1070": {
 			"cost": {
@@ -67283,7 +67329,7 @@
 			"language_file_name": 7477,
 			"language_file_help": 107477,
 			"name": "Coiled Serpent Array",
-			"localised_name": ""
+			"localised_name": "Coiled Serpent Array"
 		},
 		"1071": {
 			"cost": {
@@ -67335,7 +67381,7 @@
 			"language_file_name": 7478,
 			"language_file_help": 107478,
 			"name": "Elite Fire Archer",
-			"localised_name": ""
+			"localised_name": "Elite Fire Archer"
 		},
 		"1075": {
 			"cost": {
@@ -67413,7 +67459,7 @@
 			"language_file_name": 7480,
 			"language_file_help": 107480,
 			"name": "Red Cliffs Tactics",
-			"localised_name": ""
+			"localised_name": "Red Cliffs Tactics"
 		},
 		"1081": {
 			"cost": {
@@ -67426,7 +67472,7 @@
 			"language_file_name": 7481,
 			"language_file_help": 107481,
 			"name": "Ming-Kuang Armor",
-			"localised_name": ""
+			"localised_name": "Sitting Tiger"
 		},
 		"1082": {
 			"cost": {
@@ -67794,9 +67840,9 @@
 		},
 		"1110": {
 			"cost": {
-				"wood": 300,
-				"food": 0,
-				"gold": 200,
+				"wood": 0,
+				"food": 350,
+				"gold": 300,
 				"stone": 0
 			},
 			"help_converter": 428005,
@@ -67815,7 +67861,7 @@
 			"help_converter": 428006,
 			"language_file_name": 407006,
 			"language_file_help": 507006,
-			"name": "Satrapies, Achaemenid Unique Tech",
+			"name": "Reed Arrows, Achaemenid Unique Tech",
 			"localised_name": ""
 		},
 		"1112": {
@@ -67835,13 +67881,13 @@
 			"cost": {
 				"wood": 0,
 				"food": 600,
-				"gold": 500,
+				"gold": 550,
 				"stone": 0
 			},
 			"help_converter": 428008,
 			"language_file_name": 407008,
 			"language_file_help": 507008,
-			"name": "Palta, Achaemenid Unique Tech",
+			"name": "Sagaris, Achaemenid Unique Tech",
 			"localised_name": ""
 		},
 		"1114": {
@@ -67937,9 +67983,9 @@
 		},
 		"1121": {
 			"cost": {
-				"wood": 400,
+				"wood": 500,
 				"food": 0,
-				"gold": 300,
+				"gold": 450,
 				"stone": 0
 			},
 			"help_converter": 428010,
@@ -67951,8 +67997,8 @@
 		"1122": {
 			"cost": {
 				"wood": 0,
-				"food": 600,
-				"gold": 750,
+				"food": 500,
+				"gold": 350,
 				"stone": 0
 			},
 			"help_converter": 428011,
@@ -67963,15 +68009,15 @@
 		},
 		"1123": {
 			"cost": {
-				"wood": 0,
-				"food": 900,
-				"gold": 600,
+				"wood": 500,
+				"food": 0,
+				"gold": 300,
 				"stone": 0
 			},
 			"help_converter": 428012,
 			"language_file_name": 407012,
 			"language_file_help": 507012,
-			"name": "Mines of Laurion, Athenian Unique Tech",
+			"name": "Delian League, Athenian Unique Tech",
 			"localised_name": ""
 		},
 		"1124": {
@@ -68068,21 +68114,21 @@
 		"1131": {
 			"cost": {
 				"wood": 0,
-				"food": 350,
-				"gold": 650,
+				"food": 500,
+				"gold": 400,
 				"stone": 0
 			},
 			"help_converter": 428014,
 			"language_file_name": 407014,
 			"language_file_help": 507014,
-			"name": "Krypteia, Spartan Unique Tech",
+			"name": "Agoge, Spartan Unique Tech",
 			"localised_name": ""
 		},
 		"1132": {
 			"cost": {
 				"wood": 0,
-				"food": 400,
-				"gold": 300,
+				"food": 300,
+				"gold": 250,
 				"stone": 0
 			},
 			"help_converter": 428015,
@@ -68095,7 +68141,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 700,
-				"gold": 400,
+				"gold": 450,
 				"stone": 0
 			},
 			"help_converter": 428016,
@@ -68692,14 +68738,14 @@
 		"1179": {
 			"cost": {
 				"wood": 0,
-				"food": 1,
+				"food": 0,
 				"gold": 0,
 				"stone": 0
 			},
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "Elite Hoplite and Xyphos",
+			"name": "",
 			"localised_name": ""
 		},
 		"1180": {
@@ -68894,7 +68940,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "Taxiarchs and Elite Strategos",
+			"name": "",
 			"localised_name": ""
 		},
 		"1195": {
@@ -68925,10 +68971,10 @@
 		},
 		"1197": {
 			"cost": {
-				"wood": 0,
+				"wood": 100,
 				"food": 0,
 				"gold": 0,
-				"stone": 225
+				"stone": 50
 			},
 			"help_converter": 428047,
 			"language_file_name": 407047,
@@ -69005,7 +69051,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 0,
-				"gold": 50,
+				"gold": 0,
 				"stone": 0
 			},
 			"help_converter": 428052,
@@ -69018,7 +69064,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 0,
-				"gold": 50,
+				"gold": 0,
 				"stone": 0
 			},
 			"help_converter": 428053,
@@ -69277,8 +69323,8 @@
 		"1224": {
 			"cost": {
 				"wood": 0,
-				"food": 150,
-				"gold": 175,
+				"food": 100,
+				"gold": 75,
 				"stone": 0
 			},
 			"help_converter": 428055,
