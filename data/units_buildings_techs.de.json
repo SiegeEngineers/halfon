@@ -4257,8 +4257,8 @@
 		},
 		"185": {
 			"cost": {
-				"wood": 10,
-				"food": 70,
+				"wood": 25,
+				"food": 50,
 				"gold": 0,
 				"stone": 0
 			},
@@ -19944,7 +19944,7 @@
 		"879": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
+				"food": 70,
 				"gold": 30,
 				"stone": 0
 			},
@@ -19990,7 +19990,7 @@
 		"881": {
 			"cost": {
 				"wood": 0,
-				"food": 60,
+				"food": 70,
 				"gold": 30,
 				"stone": 0
 			},
@@ -41162,7 +41162,7 @@
 			"language_file_name": 5034,
 			"language_file_help": 105034,
 			"name": "ECOMPBOW",
-			"hit_points": 45,
+			"hit_points": 50,
 			"line_of_sight": 7,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -44543,7 +44543,7 @@
 			"language_file_name": 5074,
 			"language_file_help": 105074,
 			"name": "TIGERCAV",
-			"hit_points": 115,
+			"hit_points": 110,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -44589,7 +44589,7 @@
 			"language_file_name": 5153,
 			"language_file_help": 105153,
 			"name": "ETIGERCAV",
-			"hit_points": 130,
+			"hit_points": 125,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -57584,7 +57584,7 @@
 			"language_file_name": 5510,
 			"language_file_help": 105510,
 			"name": "GUECHA",
-			"hit_points": 50,
+			"hit_points": 55,
 			"line_of_sight": 4,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -57630,7 +57630,7 @@
 			"language_file_name": 5511,
 			"language_file_help": 105511,
 			"name": "EGUECHA",
-			"hit_points": 50,
+			"hit_points": 60,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -58124,7 +58124,7 @@
 		"2586": {
 			"cost": {
 				"wood": 0,
-				"food": 80,
+				"food": 70,
 				"gold": 45,
 				"stone": 0
 			},
@@ -58147,7 +58147,7 @@
 		"2587": {
 			"cost": {
 				"wood": 0,
-				"food": 80,
+				"food": 70,
 				"gold": 45,
 				"stone": 0
 			},
@@ -61789,10 +61789,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28402,
+			"language_file_name": 7000,
+			"language_file_help": 107402,
+			"name": "[FTT] Enable Regionals",
 			"localised_name": ""
 		},
 		"79": {
@@ -61802,10 +61802,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": -79000,
-			"language_file_name": 0,
-			"language_file_help": 0,
-			"name": "New Research",
+			"help_converter": 28402,
+			"language_file_name": 7000,
+			"language_file_help": 107402,
+			"name": "Disable Regionals",
 			"localised_name": ""
 		},
 		"80": {
@@ -62351,7 +62351,7 @@
 			"help_converter": 28402,
 			"language_file_name": 7000,
 			"language_file_help": 107402,
-			"name": "[FTT] Disable South American Regionals",
+			"name": "[FTT] Adjust Regionals Positions",
 			"localised_name": ""
 		},
 		"122": {
@@ -62754,7 +62754,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Military cost -5%",
+			"name": "C-Bonus, Military cost -15%",
 			"localised_name": ""
 		},
 		"153": {
@@ -62767,7 +62767,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Military cost -10%",
+			"name": "C-Bonus, Military cost -20%",
 			"localised_name": ""
 		},
 		"154": {
@@ -62780,7 +62780,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Military cost -15%",
+			"name": "C-Bonus, Military cost -25%",
 			"localised_name": ""
 		},
 		"155": {
@@ -62793,7 +62793,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, Military cost -20%",
+			"name": "C-Bonus, Military cost -30%",
 			"localised_name": ""
 		},
 		"156": {
@@ -64847,7 +64847,7 @@
 			"help_converter": -79000,
 			"language_file_name": 0,
 			"language_file_help": 0,
-			"name": "Xolotl (disable)",
+			"name": "New Research",
 			"localised_name": ""
 		},
 		"314": {
@@ -64912,7 +64912,7 @@
 			"help_converter": -79000,
 			"language_file_name": 0,
 			"language_file_help": 0,
-			"name": "Xolotl (make avail) Azt",
+			"name": "New Research",
 			"localised_name": ""
 		},
 		"319": {
@@ -65302,7 +65302,7 @@
 			"help_converter": -79000,
 			"language_file_name": 0,
 			"language_file_help": 0,
-			"name": "Xolotl (make avail) May",
+			"name": "New Research",
 			"localised_name": ""
 		},
 		"349": {
@@ -69982,7 +69982,7 @@
 			"help_converter": 28402,
 			"language_file_name": 7000,
 			"language_file_help": 107402,
-			"name": "[FTT] Move Flaming Camels",
+			"name": "[FTT] Move Flaming/Siege Camels",
 			"localised_name": ""
 		},
 		"709": {
@@ -70099,7 +70099,7 @@
 			"help_converter": 28402,
 			"language_file_name": 7000,
 			"language_file_help": 107402,
-			"name": "[FTT] Move Lancers",
+			"name": "[FTT] Disable Paphos Regionals",
 			"localised_name": ""
 		},
 		"718": {
@@ -78334,7 +78334,7 @@
 		"1351": {
 			"cost": {
 				"wood": 0,
-				"food": 200,
+				"food": 150,
 				"gold": 175,
 				"stone": 0
 			},
@@ -78997,7 +78997,7 @@
 		"1402": {
 			"cost": {
 				"wood": 0,
-				"food": 120,
+				"food": 90,
 				"gold": 60,
 				"stone": 0
 			},
